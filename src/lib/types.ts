@@ -7,6 +7,7 @@ export type Collection = {
   glyph: string; // a single mark/character shown in editorial list rows
   tagline: string; // poetic one-liner (GAOCHAO style)
   description: string;
+  image?: string; // local hero image, served at /images/collections/<slug>.jpg
 };
 
 export type ProductStatus = "active" | "archived" | "coming-soon";

@@ -1,0 +1,321 @@
+{
+  "generatedAt": "2026-06-06T18:57:03.269Z",
+  "model": "fal-ai/nano-banana-pro",
+  "items": [
+    {
+      "kind": "hero",
+      "slug": "hero",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. a single curated essential — a folded heavyweight garment, the chef's selection — a hero composition for the storefront, the single confident piece. resting on warm sandstone. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra; wide, unhurried storefront opener; one confident piece carrying the whole frame. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/hero.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "collection",
+      "slug": "kinari",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. the Kinari collection — \"Left as it was found.\" — a collection cover that captures its character (unbleached naturals). laid over raw linen. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra; Left as it was found.. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/collections/kinari.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "collection",
+      "slug": "sumi",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. the Sumi collection — \"One line, drawn once.\" — a collection cover that captures its character (dark essentials in deep charcoal and warm sumi-black). arranged on washi paper. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra; One line, drawn once.. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/collections/sumi.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "collection",
+      "slug": "ai",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. the Ai collection — \"Dyed deep. Worn long.\" — a collection cover that captures its character (indigo-dyed cottons and denims that deepen with wear). arranged on washi paper. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra; Dyed deep. Worn long.. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/collections/ai.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "collection",
+      "slug": "hinoki",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. the Hinoki collection — \"Warm to the hand.\" — a collection cover that captures its character (cypress-warm naturals). laid over raw linen. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra; Warm to the hand.. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/collections/hinoki.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "collection",
+      "slug": "kuro",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. the Kuro collection — \"The drop.\" — a collection cover that captures its character (the limited black line). set on a hinoki cypress surface. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra; The drop.. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/collections/kuro.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "collection",
+      "slug": "shiro",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. the Shiro collection — \"Nothing extra.\" — a collection cover that captures its character (clean whites). set on a hinoki cypress surface. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra; Nothing extra.. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/collections/shiro.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "kinari-crew-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Kinari Crew — A loop-knit crew in undyed cotton. Left the color it came in. — a product study, the garment as the sole subject. laid over raw linen. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/kinari-crew-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "kinari-pocket-tee-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Kinari Pocket Tee — A heavyweight tee in raw cotton with a single chest pocket. The first layer, and often the only one. — a product study, the garment as the sole subject. laid over raw linen. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/kinari-pocket-tee-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "kinari-wide-trouser-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Kinari Wide Trouser — A relaxed, drawn-waist trouser in unbleached twill. Tailoring that asks for nothing. — a product study, the garment as the sole subject. set on a hinoki cypress surface. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/kinari-wide-trouser-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "kinari-linen-shirt-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Kinari Linen Shirt — Washed natural linen, cut easy. Creases on purpose. — a product study, the garment as the sole subject. laid over raw linen. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/kinari-linen-shirt-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "kinari-field-coat-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Kinari Field Coat — An unlined chore coat in raw canvas. Softens with every wear. — a product study, the garment as the sole subject. resting on warm sandstone. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/kinari-field-coat-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "kinari-tote-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Kinari Tote — An oversized market tote in heavy undyed canvas. Carries the day. — a product study, the garment as the sole subject. set on a hinoki cypress surface. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/kinari-tote-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "sumi-overshirt-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Sumi Overshirt — An unstructured overshirt in brushed cotton, dyed deep sumi-black. One line, drawn once. — a product study, the garment as the sole subject. resting on warm sandstone. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/sumi-overshirt-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "sumi-trouser-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Sumi Trouser — A heavier wool-blend trouser with a single deep pleat. Weight you can lean on. — a product study, the garment as the sole subject. set on a hinoki cypress surface. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/sumi-trouser-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "sumi-roll-neck-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Sumi Roll-Neck — Dense lambswool knit close to the throat. Charcoal as material. — a product study, the garment as the sole subject. arranged on washi paper. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/sumi-roll-neck-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "sumi-wool-coat-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Sumi Wool Coat — A long single-breasted coat in compacted wool. Cut for the cold hours. — a product study, the garment as the sole subject. laid over raw linen. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/sumi-wool-coat-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "sumi-leather-belt-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Sumi Leather Belt — Vegetable-tanned leather, blackened by hand. Ages quietly. — a product study, the garment as the sole subject. arranged on washi paper. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/sumi-leather-belt-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "sumi-cashmere-scarf-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Sumi Cashmere Scarf — A double-faced cashmere scarf in two depths of charcoal. — a product study, the garment as the sole subject. set on a hinoki cypress surface. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/sumi-cashmere-scarf-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "ai-wide-trouser-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Ai Wide Trouser — A fluid wide-leg in rope-dyed indigo. Dyed deep, worn long. — a product study, the garment as the sole subject. resting on warm sandstone. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/ai-wide-trouser-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "ai-haori-jacket-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Ai Haori Jacket — An open-front haori in indigo-dyed cotton. Deepens with every wear. — a product study, the garment as the sole subject. resting on warm sandstone. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/ai-haori-jacket-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "ai-denim-shirt-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Ai Denim Shirt — A boro-inspired denim shirt in slubby indigo. Keeps its own record. — a product study, the garment as the sole subject. set on a hinoki cypress surface. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/ai-denim-shirt-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "ai-selvedge-jean-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Ai Selvedge Jean — A straight-leg selvedge jean, rope-dyed and raw. Made to fade to you. — a product study, the garment as the sole subject. set on a hinoki cypress surface. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/ai-selvedge-jean-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "ai-noragi-coat-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Ai Noragi Coat — A patched noragi work coat in layered indigo. The longer it lives, the better it reads. — a product study, the garment as the sole subject. resting on warm sandstone. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/ai-noragi-coat-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "ai-indigo-scarf-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Ai Indigo Scarf — A hand-dyed modal scarf in graduated indigo, dusk to deep night. — a product study, the garment as the sole subject. resting on warm sandstone. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/ai-indigo-scarf-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "hinoki-knit-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Hinoki Knit — A brushed lambswool knit in warm cypress tones. Quiet warmth in the weave. — a product study, the garment as the sole subject. resting on warm sandstone. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/hinoki-knit-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "hinoki-cardigan-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Hinoki Cardigan — A relaxed shawl-collar cardigan in soft wool. Warm to the hand. — a product study, the garment as the sole subject. laid over raw linen. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/hinoki-cardigan-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "hinoki-camp-collar-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Hinoki Camp Collar — A camp-collar shirt in earthy washed cotton, cut wide and easy. — a product study, the garment as the sole subject. laid over raw linen. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/hinoki-camp-collar-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "hinoki-lounge-pant-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Hinoki Lounge Pant — A soft pull-on trouser in brushed cotton. The weight of an easy afternoon. — a product study, the garment as the sole subject. resting on warm sandstone. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/hinoki-lounge-pant-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "hinoki-wool-beanie-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Hinoki Wool Beanie — A fine-gauge merino beanie in warm cedar. Folds to nothing. — a product study, the garment as the sole subject. resting on warm sandstone. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/hinoki-wool-beanie-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "hinoki-carry-pouch-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Hinoki Carry Pouch — A soft leather pouch for cords, keys, and small certainties. — a product study, the garment as the sole subject. laid over raw linen. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/hinoki-carry-pouch-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "kuro-cap-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Kuro Cap — A six-panel cap in matte black, numbered to the run. The drop. — a product study, the garment as the sole subject. arranged on washi paper. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/kuro-cap-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "kuro-bomber-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Kuro Bomber — A limited bomber in coated black nylon. Made once, numbered, then gone. — a product study, the garment as the sole subject. set on a hinoki cypress surface. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/kuro-bomber-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "kuro-hooded-parka-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Kuro Hooded Parka — A long technical parka in deep black. A small, numbered run. — a product study, the garment as the sole subject. resting on warm sandstone. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/kuro-hooded-parka-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "kuro-cargo-trouser-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Kuro Cargo Trouser — A tapered cargo in matte black ripstop. Limited to the drop. — a product study, the garment as the sole subject. set on a hinoki cypress surface. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/kuro-cargo-trouser-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "kuro-heavyweight-hoodie-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Kuro Heavyweight Hoodie — A boxy 14oz hoodie in pitch black, numbered inside the hem. — a product study, the garment as the sole subject. arranged on washi paper. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/kuro-heavyweight-hoodie-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "kuro-tabi-boot-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Kuro Tabi Boot — A split-toe tabi boot in black leather. A single numbered run. — a product study, the garment as the sole subject. set on a hinoki cypress surface. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/kuro-tabi-boot-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "shiro-tee-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Shiro Tee — The essential tee in dense white cotton. Holds its shape. Nothing extra. — a product study, the garment as the sole subject. laid over raw linen. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/shiro-tee-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "shiro-oxford-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Shiro Oxford — A crisp oxford in optic white. The shirt that finishes everything. — a product study, the garment as the sole subject. arranged on washi paper. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/shiro-oxford-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "shiro-crew-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Shiro Crew — A fine merino crew in clean white. Light, exact, restrained. — a product study, the garment as the sole subject. resting on warm sandstone. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/shiro-crew-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "shiro-wide-trouser-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Shiro Wide Trouser — A fluid wide-leg in off-white twill. Calm from waist to hem. — a product study, the garment as the sole subject. arranged on washi paper. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/shiro-wide-trouser-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "shiro-linen-shirt-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Shiro Linen Shirt — Washed white linen, cut loose. Breathes before you do. — a product study, the garment as the sole subject. set on a hinoki cypress surface. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/shiro-linen-shirt-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "shiro-sleep-set-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Shiro Sleep Set — A two-piece in silk-finish white cotton. For the soft hours. — a product study, the garment as the sole subject. laid over raw linen. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/shiro-sleep-set-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "shiro-sneaker-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Shiro Sneaker — A minimal low-top in white leather. One clean line, nothing more. — a product study, the garment as the sole subject. resting on warm sandstone. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/shiro-sneaker-01.jpg",
+      "source": "fal"
+    },
+    {
+      "kind": "product",
+      "slug": "shiro-ceramic-mug-01",
+      "prompt": "Editorial photography for a premium Japanese luxury label, considered and quietly confident. Shiro Ceramic Mug — A hand-thrown mug in matte white glaze. The smallest essential. — a product study, the garment as the sole subject. laid over raw linen. soft warm daylight, gentle directional shadow, calm and unhurried. muted sand, clay, and sumi palette — warm neutrals, terracotta accent, deep warm near-black. calm and considered, generous negative space (ma), restraint, nothing extra. shot on medium format, shallow controlled depth of field, magazine-quality, no text, no logos, no robots, no sci-fi",
+      "path": "/images/products/shiro-ceramic-mug-01.jpg",
+      "source": "fal"
+    }
+  ]
+}

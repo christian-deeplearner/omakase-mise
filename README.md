@@ -54,10 +54,29 @@ The killer test (`e2e/storefront-checkout.spec.ts`) drives a checkout on the sto
 | Dev (both surfaces) | `pnpm dev` |
 | Production build | `pnpm build` |
 | Regenerate fixtures (deterministic) | `pnpm seed` |
+| Generate brand imagery | `pnpm generate:images` |
 | Lint | `pnpm lint` |
 | End-to-end tests | `pnpm test:e2e` *(added during Mission 2)* |
 
 Requires Node (use `nvm`) and `pnpm`.
+
+---
+
+## Images
+
+Omakase generates its own imagery — editorial photography for a Japanese-luxury label, on the Sand+Clay palette — through a gated creative loop run by the `art-director` agent.
+
+```bash
+# 1. drop your Fal key into .env.local (gitignored — never commit it)
+echo "FAL_KEY=your-fal-key" >> .env.local
+
+# 2. generate the brand imagery
+pnpm generate:images
+```
+
+- Frames land in `public/images/` — hero (`hero.jpg`), collections (`collections/<slug>.jpg`), products (`products/<slug>-01.jpg` / `-02.jpg`) — and render on the storefront from `/images/...`.
+- **No key? It still works.** If `FAL_KEY` is absent, the generator falls back to a deterministic warm-sand **stub**, so the loop runs offline and this public repo is safe to clone without secrets.
+- The model is `fal-ai/nano-banana-pro` (override with `FAL_MODEL`). The prompt method, the 7-part image-prompt architecture, and the agent roles live in `docs/creative/` (`PIPELINE.md`, `PROMPT-ENGINEERING.md`, `AGENT-ARCHITECTURE.md`); the brand image gate is `knowledge-base/standards/2026-06-06-omakase-image-standard.md`.
 
 ---
 

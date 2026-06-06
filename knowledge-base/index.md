@@ -33,6 +33,7 @@
 |---|---|---|
 | `standards/pdp-quality-gate.md` | The ≥80 PDP score gate (generate → gate → review) | **hot** |
 | `standards/review-links-standard.md` | "Done" requires a clickable review link | **hot** |
+| `standards/2026-06-06-omakase-image-standard.md` | The ≥80 image gate + veto (no text/logo/sci-fi; Sand+Clay palette) — run by `art-director` | cold |
 
 ### decisions/ — why we chose what we chose (append-only log)
 | File | What it is |
@@ -61,3 +62,4 @@ This is the memory base. The *operating* layer sits beside it:
 - `../.claude/skills/` — the three standing weekly skills.
 - `../.claude/commands/` — `/ship`, `/review`, `/verify`.
 - `../workflows/` — sequence+gate workflows, including the meta `build-webinar.md`.
+- `../docs/creative/` — the image pipeline methodology (`PIPELINE.md`, `PROMPT-ENGINEERING.md`, `AGENT-ARCHITECTURE.md`); run by the `art-director` agent via `pnpm generate:images`.

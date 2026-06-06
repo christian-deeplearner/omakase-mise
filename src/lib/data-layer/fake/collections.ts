@@ -12,6 +12,7 @@ export const COLLECTIONS: readonly Collection[] = [
     tagline: "Left as it was found.",
     description:
       "Unbleached naturals. Raw cotton and undyed linen in the color they came in. Our foundation line — nothing added, nothing taken.",
+    image: "/images/collections/kinari.jpg",
   },
   {
     slug: "sumi",
@@ -20,6 +21,7 @@ export const COLLECTIONS: readonly Collection[] = [
     tagline: "One line, drawn once.",
     description:
       "Dark essentials in deep charcoal and warm sumi-black. Precise tailoring and heavier weights. The pieces you reach for without thinking.",
+    image: "/images/collections/sumi.jpg",
   },
   {
     slug: "ai",
@@ -28,6 +30,7 @@ export const COLLECTIONS: readonly Collection[] = [
     tagline: "Dyed deep. Worn long.",
     description:
       "Indigo-dyed cottons and denims that deepen with wear. Rope-dyed by hand, made to keep their own record over years.",
+    image: "/images/collections/ai.jpg",
   },
   {
     slug: "hinoki",
@@ -36,6 +39,7 @@ export const COLLECTIONS: readonly Collection[] = [
     tagline: "Warm to the hand.",
     description:
       "Cypress-warm naturals — brushed knits, soft wovens, and earthy neutrals. Quiet warmth in the weight and the weave.",
+    image: "/images/collections/hinoki.jpg",
   },
   {
     slug: "kuro",
@@ -44,6 +48,7 @@ export const COLLECTIONS: readonly Collection[] = [
     tagline: "The drop.",
     description:
       "The limited black line. Numbered, low inventory, made once. When it is gone, it is gone.",
+    image: "/images/collections/kuro.jpg",
   },
   {
     slug: "shiro",
@@ -52,6 +57,7 @@ export const COLLECTIONS: readonly Collection[] = [
     tagline: "Nothing extra.",
     description:
       "Clean whites. The essential tee, the crisp oxford, the white that holds its shape. Restraint, in its plainest form.",
+    image: "/images/collections/shiro.jpg",
   },
 ];
 

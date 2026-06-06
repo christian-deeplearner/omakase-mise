@@ -17,10 +17,12 @@ export default function StoreHome() {
     <div className="bg-paper">
       {/* ── Hero: dark panel melting into paper ───────────────────────── */}
       <section className="relative isolate overflow-hidden bg-panel text-paper-on-panel">
-        {/* full-bleed image, dimmed, melting to paper at the base */}
+        {/* full-bleed image, dimmed, melting to paper at the base.
+            Served from public/images/hero.jpg (creative pipeline →
+            scripts/generate-images.mjs). */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://picsum.photos/seed/omakase-hero/2000/1400"
+          src="/images/hero.jpg"
           alt=""
           aria-hidden
           className="absolute inset-0 h-full w-full object-cover opacity-40"

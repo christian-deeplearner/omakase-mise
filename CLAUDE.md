@@ -81,11 +81,13 @@ Work passes these gates before it is "done."
 @knowledge-base/standards/pdp-quality-gate.md
 @knowledge-base/standards/review-links-standard.md
 
+Imagery passes the **image gate** (≥80 + veto on text/logo/sci-fi; Sand+Clay palette) — cold standard, run by the `art-director`: `knowledge-base/standards/2026-06-06-omakase-image-standard.md`.
+
 The canonical in-repo brand doc (tokens, voice, the six collections, naming): `knowledge-base/brand/omakase-brand.md`. The cold map of the rest of the memory base (read on request, not auto-loaded): `knowledge-base/index.md`. Keep hot context small; move the rest cold.
 
 ## Agent Team
 
-This repo defines a named agent team in `.claude/agents/` — staff with job descriptions, not anonymous parallel processes. `director` orchestrates and never writes code; `tpm`, `cto`, `fullstack-engineer`, `ui-ux-designer`, and `qa` do the work. Use agents to multiply judgment, not replace it.
+This repo defines a named agent team in `.claude/agents/` — staff with job descriptions, not anonymous parallel processes. `director` orchestrates and never writes code; `tpm`, `cto`, `fullstack-engineer`, `ui-ux-designer`, `qa`, and `art-director` (the agent that produces the imagery) do the work. Use agents to multiply judgment, not replace it.
 
 Enable Claude Code agent teams (experimental):
 ```bash
@@ -93,6 +95,18 @@ CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 claude
 ```
 
 Standing skills live in `.claude/skills/` (three you use weekly beat 200 prompts you scroll once): `generate-pdp`, `weekly-ops-review`, `competitor-scan`. Slash commands live in `.claude/commands/`: `/ship`, `/review`, `/verify`. Sequence+gate workflows live in `workflows/`.
+
+## Creative pipeline
+
+Omakase produces its own imagery — editorial photography for a Japanese-luxury label, on the Sand+Clay palette. The pipeline runs one gated loop: **BRIEF → PROMPT → GENERATE → SCORE → SELECT → ASSIGN.**
+
+- **The agent:** `art-director` (`.claude/agents/art-director.md`) briefs the scene, writes the Omakase image prompt (7-part architecture), runs generation, scores variants against the image gate, and writes the winner to the canonical path. This is the agent that produces the images.
+- **The code:** `src/lib/creative` (the Fal client wrapper + stub), entered via `scripts/generate-images.mjs`, wired to `pnpm generate:images`. Model `fal-ai/nano-banana-pro` (`FAL_MODEL` overrides), `num_inference_steps` 28, `guidance_scale` 5, `num_images` 1.
+- **The surface:** generated frames land in `public/images/` (hero → `hero.jpg`; collections → `collections/<slug>.jpg`; products → `products/<slug>-01.jpg`/`-02.jpg`) and the storefront / a Studio surface renders them from `/images/...`.
+- **The key:** `FAL_KEY` lives in `.env.local` (gitignored). **Never print, log, or commit it.** If it's absent, a deterministic **stub** writes a warm-sand placeholder — the loop runs offline and the public repo stays safe.
+- **The gate + method:** image gate `knowledge-base/standards/2026-06-06-omakase-image-standard.md`; methodology in `docs/creative/` (`PIPELINE.md`, `PROMPT-ENGINEERING.md`, `AGENT-ARCHITECTURE.md`).
+
+The integrator builds; the human runs generation. Don't run `pnpm build`/`pnpm dev`/`pnpm generate:images` to "check" your prompt — verify the frame at its review link.
 
 ## Verification
 
@@ -110,6 +124,7 @@ Every change is verified by running the app and observing behavior — not by as
 | `pnpm dev` | Storefront at `/`, command center at `/overview` |
 | `pnpm build` | Production build (type-check gate) |
 | `pnpm seed` | Regenerate deterministic fixtures (`scripts/generate-fixtures.ts`) |
+| `pnpm generate:images` | Generate brand imagery via Fal (`art-director`) — stub fallback if no `FAL_KEY` |
 | `pnpm lint` | ESLint |
 | `pnpm test:e2e` | Playwright (added live during Mission 2) |
 

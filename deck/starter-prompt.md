@@ -4,6 +4,8 @@ Paste this into a **fresh Claude Code session in an empty folder**. It builds th
 whole project the way this repo was actually built: a memory base first, a named
 agent team, plan-before-code, a real verification gate, and learnings written back.
 
+> **Scope:** this live build intentionally **leaves out AI image generation** — products use simple placeholder images so the build stays fast. The on-brand fal.ai image pipeline + the command-center Studio is an advanced add-on that already lives in this repo (see `docs/creative/`), not part of this from-scratch build.
+
 Enable the team first:
 
 ```bash
@@ -59,7 +61,7 @@ Read me the plan. No code before I approve.
   | hinoki | Hinoki | 檜 | "Warm to the hand." | cypress-warm naturals |
   | kuro | Kuro | 黒 | "The drop." | limited black line — numbered, limited (the hypebeast note) |
   | shiro | Shiro | 白 | "Nothing extra." | clean whites |
-- **Products:** seed ~40 elevated essentials across the collections (e.g. Kinari Crew, Kinari Pocket Tee, Sumi Overshirt, Sumi Trouser, Ai Wide Trouser, Ai Haori Jacket, Hinoki Knit, Hinoki Cardigan, Kuro Cap (drop), Kuro Bomber (limited), Shiro Tee, Shiro Oxford). Prices realistic for elevated essentials (~8,000–58,000 cents). Kuro items are the limited "drops" — lower inventory, numbered vibe.
+- **Products:** seed ~40 elevated essentials across the collections (e.g. Kinari Crew, Kinari Pocket Tee, Sumi Overshirt, Sumi Trouser, Ai Wide Trouser, Ai Haori Jacket, Hinoki Knit, Hinoki Cardigan, Kuro Cap (drop), Kuro Bomber (limited), Shiro Tee, Shiro Oxford). Prices realistic for elevated essentials (~8,000–58,000 cents). Kuro items are the limited "drops" — lower inventory, numbered vibe. Use placeholder images for products (e.g. `https://picsum.photos/seed/<slug>/900/1200`) — image generation is out of scope for this build.
 - **The detail that makes it real:** a customer checkout on the storefront **creates an order that appears in the command center** — both read the same seam.
 
 **5 · Prove it, don't assert it.** `qa` adds Playwright and writes the **full-loop test**: storefront PDP → add to cart → checkout → assert that exact order shows up in the command center. Gates: `pnpm build` clean, `pnpm lint` 0 errors, `pnpm test:e2e` green — run it twice to catch flake. Nothing is "done" without the test green and a clickable review link.

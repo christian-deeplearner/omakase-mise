@@ -7,656 +7,9 @@
     "priceCents": 13900,
     "currency": "USD",
     "images": [
-      "https://picsum.photos/seed/omakase-kinari-crew-1/900/1200",
-      "https://picsum.photos/seed/omakase-kinari-crew-2/900/1200",
-      "https://picsum.photos/seed/omakase-kinari-crew-3/900/1200"
+      "/images/products/kinari-crew-01.jpg"
     ],
     "description": "A loop-knit crew in undyed cotton. Left the color it came in.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 214
-  },
-  {
-    "id": "prd_t766aifa",
-    "slug": "kinari-pocket-tee",
-    "name": "Kinari Pocket Tee",
-    "collectionSlug": "kinari",
-    "priceCents": 9900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-kinari-pocket-tee-1/900/1200",
-      "https://picsum.photos/seed/omakase-kinari-pocket-tee-2/900/1200"
-    ],
-    "description": "A heavyweight tee in raw cotton with a single chest pocket. The first layer, and often the only one.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 80
-  },
-  {
-    "id": "prd_gs7il1l6",
-    "slug": "kinari-wide-trouser",
-    "name": "Kinari Wide Trouser",
-    "collectionSlug": "kinari",
-    "priceCents": 14900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-kinari-wide-trouser-1/900/1200",
-      "https://picsum.photos/seed/omakase-kinari-wide-trouser-2/900/1200",
-      "https://picsum.photos/seed/omakase-kinari-wide-trouser-3/900/1200"
-    ],
-    "description": "A relaxed, drawn-waist trouser in unbleached twill. Tailoring that asks for nothing.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "archived",
-    "inventory": 10
-  },
-  {
-    "id": "prd_a3of4h1w",
-    "slug": "kinari-linen-shirt",
-    "name": "Kinari Linen Shirt",
-    "collectionSlug": "kinari",
-    "priceCents": 14900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-kinari-linen-shirt-1/900/1200",
-      "https://picsum.photos/seed/omakase-kinari-linen-shirt-2/900/1200",
-      "https://picsum.photos/seed/omakase-kinari-linen-shirt-3/900/1200"
-    ],
-    "description": "Washed natural linen, cut easy. Creases on purpose.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 114
-  },
-  {
-    "id": "prd_j6yrxwlx",
-    "slug": "kinari-field-coat",
-    "name": "Kinari Field Coat",
-    "collectionSlug": "kinari",
-    "priceCents": 28900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-kinari-field-coat-1/900/1200",
-      "https://picsum.photos/seed/omakase-kinari-field-coat-2/900/1200"
-    ],
-    "description": "An unlined chore coat in raw canvas. Softens with every wear.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 71
-  },
-  {
-    "id": "prd_d9tcaj5s",
-    "slug": "kinari-tote",
-    "name": "Kinari Tote",
-    "collectionSlug": "kinari",
-    "priceCents": 8900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-kinari-tote-1/900/1200",
-      "https://picsum.photos/seed/omakase-kinari-tote-2/900/1200",
-      "https://picsum.photos/seed/omakase-kinari-tote-3/900/1200"
-    ],
-    "description": "An oversized market tote in heavy undyed canvas. Carries the day.",
-    "sizes": [
-      "OS"
-    ],
-    "status": "active",
-    "inventory": 43
-  },
-  {
-    "id": "prd_0tpqr2c4",
-    "slug": "sumi-overshirt",
-    "name": "Sumi Overshirt",
-    "collectionSlug": "sumi",
-    "priceCents": 20900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-sumi-overshirt-1/900/1200",
-      "https://picsum.photos/seed/omakase-sumi-overshirt-2/900/1200",
-      "https://picsum.photos/seed/omakase-sumi-overshirt-3/900/1200"
-    ],
-    "description": "An unstructured overshirt in brushed cotton, dyed deep sumi-black. One line, drawn once.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 14
-  },
-  {
-    "id": "prd_bbqmvg4p",
-    "slug": "sumi-trouser",
-    "name": "Sumi Trouser",
-    "collectionSlug": "sumi",
-    "priceCents": 20900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-sumi-trouser-1/900/1200",
-      "https://picsum.photos/seed/omakase-sumi-trouser-2/900/1200",
-      "https://picsum.photos/seed/omakase-sumi-trouser-3/900/1200"
-    ],
-    "description": "A heavier wool-blend trouser with a single deep pleat. Weight you can lean on.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 109
-  },
-  {
-    "id": "prd_if031mbi",
-    "slug": "sumi-roll-neck",
-    "name": "Sumi Roll-Neck",
-    "collectionSlug": "sumi",
-    "priceCents": 19900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-sumi-roll-neck-1/900/1200",
-      "https://picsum.photos/seed/omakase-sumi-roll-neck-2/900/1200"
-    ],
-    "description": "Dense lambswool knit close to the throat. Charcoal as material.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 166
-  },
-  {
-    "id": "prd_82a5xtmv",
-    "slug": "sumi-wool-coat",
-    "name": "Sumi Wool Coat",
-    "collectionSlug": "sumi",
-    "priceCents": 45900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-sumi-wool-coat-1/900/1200",
-      "https://picsum.photos/seed/omakase-sumi-wool-coat-2/900/1200"
-    ],
-    "description": "A long single-breasted coat in compacted wool. Cut for the cold hours.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "coming-soon",
-    "inventory": 7
-  },
-  {
-    "id": "prd_twb38ftu",
-    "slug": "sumi-leather-belt",
-    "name": "Sumi Leather Belt",
-    "collectionSlug": "sumi",
-    "priceCents": 8900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-sumi-leather-belt-1/900/1200",
-      "https://picsum.photos/seed/omakase-sumi-leather-belt-2/900/1200",
-      "https://picsum.photos/seed/omakase-sumi-leather-belt-3/900/1200"
-    ],
-    "description": "Vegetable-tanned leather, blackened by hand. Ages quietly.",
-    "sizes": [
-      "OS"
-    ],
-    "status": "active",
-    "inventory": 49
-  },
-  {
-    "id": "prd_4cxbipdy",
-    "slug": "sumi-cashmere-scarf",
-    "name": "Sumi Cashmere Scarf",
-    "collectionSlug": "sumi",
-    "priceCents": 18900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-sumi-cashmere-scarf-1/900/1200",
-      "https://picsum.photos/seed/omakase-sumi-cashmere-scarf-2/900/1200"
-    ],
-    "description": "A double-faced cashmere scarf in two depths of charcoal.",
-    "sizes": [
-      "OS"
-    ],
-    "status": "active",
-    "inventory": 66
-  },
-  {
-    "id": "prd_a1li1aw8",
-    "slug": "ai-wide-trouser",
-    "name": "Ai Wide Trouser",
-    "collectionSlug": "ai",
-    "priceCents": 17900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-ai-wide-trouser-1/900/1200",
-      "https://picsum.photos/seed/omakase-ai-wide-trouser-2/900/1200"
-    ],
-    "description": "A fluid wide-leg in rope-dyed indigo. Dyed deep, worn long.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "archived",
-    "inventory": 3
-  },
-  {
-    "id": "prd_or8qdmmj",
-    "slug": "ai-haori-jacket",
-    "name": "Ai Haori Jacket",
-    "collectionSlug": "ai",
-    "priceCents": 26900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-ai-haori-jacket-1/900/1200",
-      "https://picsum.photos/seed/omakase-ai-haori-jacket-2/900/1200",
-      "https://picsum.photos/seed/omakase-ai-haori-jacket-3/900/1200"
-    ],
-    "description": "An open-front haori in indigo-dyed cotton. Deepens with every wear.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 41
-  },
-  {
-    "id": "prd_1lo0i8n6",
-    "slug": "ai-denim-shirt",
-    "name": "Ai Denim Shirt",
-    "collectionSlug": "ai",
-    "priceCents": 17900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-ai-denim-shirt-1/900/1200",
-      "https://picsum.photos/seed/omakase-ai-denim-shirt-2/900/1200"
-    ],
-    "description": "A boro-inspired denim shirt in slubby indigo. Keeps its own record.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "coming-soon",
-    "inventory": 1
-  },
-  {
-    "id": "prd_c4xv9ntj",
-    "slug": "ai-selvedge-jean",
-    "name": "Ai Selvedge Jean",
-    "collectionSlug": "ai",
-    "priceCents": 21900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-ai-selvedge-jean-1/900/1200",
-      "https://picsum.photos/seed/omakase-ai-selvedge-jean-2/900/1200"
-    ],
-    "description": "A straight-leg selvedge jean, rope-dyed and raw. Made to fade to you.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 198
-  },
-  {
-    "id": "prd_wmccqwvs",
-    "slug": "ai-noragi-coat",
-    "name": "Ai Noragi Coat",
-    "collectionSlug": "ai",
-    "priceCents": 35900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-ai-noragi-coat-1/900/1200",
-      "https://picsum.photos/seed/omakase-ai-noragi-coat-2/900/1200"
-    ],
-    "description": "A patched noragi work coat in layered indigo. The longer it lives, the better it reads.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 198
-  },
-  {
-    "id": "prd_l03n05jo",
-    "slug": "ai-indigo-scarf",
-    "name": "Ai Indigo Scarf",
-    "collectionSlug": "ai",
-    "priceCents": 15900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-ai-indigo-scarf-1/900/1200",
-      "https://picsum.photos/seed/omakase-ai-indigo-scarf-2/900/1200"
-    ],
-    "description": "A hand-dyed modal scarf in graduated indigo, dusk to deep night.",
-    "sizes": [
-      "OS"
-    ],
-    "status": "active",
-    "inventory": 52
-  },
-  {
-    "id": "prd_bqnunk3d",
-    "slug": "hinoki-knit",
-    "name": "Hinoki Knit",
-    "collectionSlug": "hinoki",
-    "priceCents": 16900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-hinoki-knit-1/900/1200",
-      "https://picsum.photos/seed/omakase-hinoki-knit-2/900/1200"
-    ],
-    "description": "A brushed lambswool knit in warm cypress tones. Quiet warmth in the weave.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "archived",
-    "inventory": 5
-  },
-  {
-    "id": "prd_wmsikh7q",
-    "slug": "hinoki-cardigan",
-    "name": "Hinoki Cardigan",
-    "collectionSlug": "hinoki",
-    "priceCents": 20900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-hinoki-cardigan-1/900/1200",
-      "https://picsum.photos/seed/omakase-hinoki-cardigan-2/900/1200"
-    ],
-    "description": "A relaxed shawl-collar cardigan in soft wool. Warm to the hand.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 39
-  },
-  {
-    "id": "prd_xywd0xfy",
-    "slug": "hinoki-camp-collar",
-    "name": "Hinoki Camp Collar",
-    "collectionSlug": "hinoki",
-    "priceCents": 16900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-hinoki-camp-collar-1/900/1200",
-      "https://picsum.photos/seed/omakase-hinoki-camp-collar-2/900/1200",
-      "https://picsum.photos/seed/omakase-hinoki-camp-collar-3/900/1200"
-    ],
-    "description": "A camp-collar shirt in earthy washed cotton, cut wide and easy.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 85
-  },
-  {
-    "id": "prd_ub6kxpk3",
-    "slug": "hinoki-lounge-pant",
-    "name": "Hinoki Lounge Pant",
-    "collectionSlug": "hinoki",
-    "priceCents": 14900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-hinoki-lounge-pant-1/900/1200",
-      "https://picsum.photos/seed/omakase-hinoki-lounge-pant-2/900/1200",
-      "https://picsum.photos/seed/omakase-hinoki-lounge-pant-3/900/1200"
-    ],
-    "description": "A soft pull-on trouser in brushed cotton. The weight of an easy afternoon.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 114
-  },
-  {
-    "id": "prd_vqppcatt",
-    "slug": "hinoki-wool-beanie",
-    "name": "Hinoki Wool Beanie",
-    "collectionSlug": "hinoki",
-    "priceCents": 8900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-hinoki-wool-beanie-1/900/1200",
-      "https://picsum.photos/seed/omakase-hinoki-wool-beanie-2/900/1200",
-      "https://picsum.photos/seed/omakase-hinoki-wool-beanie-3/900/1200"
-    ],
-    "description": "A fine-gauge merino beanie in warm cedar. Folds to nothing.",
-    "sizes": [
-      "OS"
-    ],
-    "status": "active",
-    "inventory": 110
-  },
-  {
-    "id": "prd_snpswcd3",
-    "slug": "hinoki-carry-pouch",
-    "name": "Hinoki Carry Pouch",
-    "collectionSlug": "hinoki",
-    "priceCents": 10900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-hinoki-carry-pouch-1/900/1200",
-      "https://picsum.photos/seed/omakase-hinoki-carry-pouch-2/900/1200"
-    ],
-    "description": "A soft leather pouch for cords, keys, and small certainties.",
-    "sizes": [
-      "OS"
-    ],
-    "status": "active",
-    "inventory": 119
-  },
-  {
-    "id": "prd_al11tc4i",
-    "slug": "kuro-cap",
-    "name": "Kuro Cap",
-    "collectionSlug": "kuro",
-    "priceCents": 11900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-kuro-cap-1/900/1200",
-      "https://picsum.photos/seed/omakase-kuro-cap-2/900/1200"
-    ],
-    "description": "A six-panel cap in matte black, numbered to the run. The drop.",
-    "sizes": [
-      "OS"
-    ],
-    "status": "active",
-    "inventory": 3
-  },
-  {
-    "id": "prd_1jjmqzib",
-    "slug": "kuro-bomber",
-    "name": "Kuro Bomber",
-    "collectionSlug": "kuro",
-    "priceCents": 54900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-kuro-bomber-1/900/1200",
-      "https://picsum.photos/seed/omakase-kuro-bomber-2/900/1200"
-    ],
-    "description": "A limited bomber in coated black nylon. Made once, numbered, then gone.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 3
-  },
-  {
-    "id": "prd_0yupe659",
-    "slug": "kuro-hooded-parka",
-    "name": "Kuro Hooded Parka",
-    "collectionSlug": "kuro",
-    "priceCents": 47900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-kuro-hooded-parka-1/900/1200",
-      "https://picsum.photos/seed/omakase-kuro-hooded-parka-2/900/1200",
-      "https://picsum.photos/seed/omakase-kuro-hooded-parka-3/900/1200"
-    ],
-    "description": "A long technical parka in deep black. A small, numbered run.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 11
-  },
-  {
-    "id": "prd_yqjmf8cr",
-    "slug": "kuro-cargo-trouser",
-    "name": "Kuro Cargo Trouser",
-    "collectionSlug": "kuro",
-    "priceCents": 19900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-kuro-cargo-trouser-1/900/1200",
-      "https://picsum.photos/seed/omakase-kuro-cargo-trouser-2/900/1200"
-    ],
-    "description": "A tapered cargo in matte black ripstop. Limited to the drop.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 1
-  },
-  {
-    "id": "prd_uph3hh6f",
-    "slug": "kuro-heavyweight-hoodie",
-    "name": "Kuro Heavyweight Hoodie",
-    "collectionSlug": "kuro",
-    "priceCents": 17900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-kuro-heavyweight-hoodie-1/900/1200",
-      "https://picsum.photos/seed/omakase-kuro-heavyweight-hoodie-2/900/1200",
-      "https://picsum.photos/seed/omakase-kuro-heavyweight-hoodie-3/900/1200"
-    ],
-    "description": "A boxy 14oz hoodie in pitch black, numbered inside the hem.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 1
-  },
-  {
-    "id": "prd_dmiun52n",
-    "slug": "kuro-tabi-boot",
-    "name": "Kuro Tabi Boot",
-    "collectionSlug": "kuro",
-    "priceCents": 29900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-kuro-tabi-boot-1/900/1200",
-      "https://picsum.photos/seed/omakase-kuro-tabi-boot-2/900/1200",
-      "https://picsum.photos/seed/omakase-kuro-tabi-boot-3/900/1200"
-    ],
-    "description": "A split-toe tabi boot in black leather. A single numbered run.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "coming-soon",
-    "inventory": 7
-  },
-  {
-    "id": "prd_dngjxdyw",
-    "slug": "shiro-tee",
-    "name": "Shiro Tee",
-    "collectionSlug": "shiro",
-    "priceCents": 8900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-shiro-tee-1/900/1200",
-      "https://picsum.photos/seed/omakase-shiro-tee-2/900/1200"
-    ],
-    "description": "The essential tee in dense white cotton. Holds its shape. Nothing extra.",
     "sizes": [
       "XS",
       "S",
@@ -668,16 +21,616 @@
     "inventory": 4
   },
   {
-    "id": "prd_3o2bu0ta",
-    "slug": "shiro-oxford",
-    "name": "Shiro Oxford",
-    "collectionSlug": "shiro",
+    "id": "prd_yt766aif",
+    "slug": "kinari-pocket-tee",
+    "name": "Kinari Pocket Tee",
+    "collectionSlug": "kinari",
+    "priceCents": 8900,
+    "currency": "USD",
+    "images": [
+      "/images/products/kinari-pocket-tee-01.jpg"
+    ],
+    "description": "A heavyweight tee in raw cotton with a single chest pocket. The first layer, and often the only one.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 30
+  },
+  {
+    "id": "prd_adgs7il1",
+    "slug": "kinari-wide-trouser",
+    "name": "Kinari Wide Trouser",
+    "collectionSlug": "kinari",
+    "priceCents": 16900,
+    "currency": "USD",
+    "images": [
+      "/images/products/kinari-wide-trouser-01.jpg"
+    ],
+    "description": "A relaxed, drawn-waist trouser in unbleached twill. Tailoring that asks for nothing.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 14
+  },
+  {
+    "id": "prd_yyta3of4",
+    "slug": "kinari-linen-shirt",
+    "name": "Kinari Linen Shirt",
+    "collectionSlug": "kinari",
+    "priceCents": 15900,
+    "currency": "USD",
+    "images": [
+      "/images/products/kinari-linen-shirt-01.jpg"
+    ],
+    "description": "Washed natural linen, cut easy. Creases on purpose.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 200
+  },
+  {
+    "id": "prd_9nbij6yr",
+    "slug": "kinari-field-coat",
+    "name": "Kinari Field Coat",
+    "collectionSlug": "kinari",
+    "priceCents": 35900,
+    "currency": "USD",
+    "images": [
+      "/images/products/kinari-field-coat-01.jpg"
+    ],
+    "description": "An unlined chore coat in raw canvas. Softens with every wear.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "coming-soon",
+    "inventory": 7
+  },
+  {
+    "id": "prd_x371bd9t",
+    "slug": "kinari-tote",
+    "name": "Kinari Tote",
+    "collectionSlug": "kinari",
+    "priceCents": 9900,
+    "currency": "USD",
+    "images": [
+      "/images/products/kinari-tote-01.jpg"
+    ],
+    "description": "An oversized market tote in heavy undyed canvas. Carries the day.",
+    "sizes": [
+      "OS"
+    ],
+    "status": "active",
+    "inventory": 119
+  },
+  {
+    "id": "prd_5s2zr70t",
+    "slug": "sumi-overshirt",
+    "name": "Sumi Overshirt",
+    "collectionSlug": "sumi",
+    "priceCents": 19900,
+    "currency": "USD",
+    "images": [
+      "/images/products/sumi-overshirt-01.jpg"
+    ],
+    "description": "An unstructured overshirt in brushed cotton, dyed deep sumi-black. One line, drawn once.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 170
+  },
+  {
+    "id": "prd_2c4vmb2b",
+    "slug": "sumi-trouser",
+    "name": "Sumi Trouser",
+    "collectionSlug": "sumi",
+    "priceCents": 18900,
+    "currency": "USD",
+    "images": [
+      "/images/products/sumi-trouser-01.jpg"
+    ],
+    "description": "A heavier wool-blend trouser with a single deep pleat. Weight you can lean on.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 140
+  },
+  {
+    "id": "prd_vg4prkrh",
+    "slug": "sumi-roll-neck",
+    "name": "Sumi Roll-Neck",
+    "collectionSlug": "sumi",
+    "priceCents": 17900,
+    "currency": "USD",
+    "images": [
+      "/images/products/sumi-roll-neck-01.jpg"
+    ],
+    "description": "Dense lambswool knit close to the throat. Charcoal as material.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 5
+  },
+  {
+    "id": "prd_31mbiw8e",
+    "slug": "sumi-wool-coat",
+    "name": "Sumi Wool Coat",
+    "collectionSlug": "sumi",
+    "priceCents": 45900,
+    "currency": "USD",
+    "images": [
+      "/images/products/sumi-wool-coat-01.jpg"
+    ],
+    "description": "A long single-breasted coat in compacted wool. Cut for the cold hours.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 17
+  },
+  {
+    "id": "prd_a5xtmvs6",
+    "slug": "sumi-leather-belt",
+    "name": "Sumi Leather Belt",
+    "collectionSlug": "sumi",
+    "priceCents": 12900,
+    "currency": "USD",
+    "images": [
+      "/images/products/sumi-leather-belt-01.jpg"
+    ],
+    "description": "Vegetable-tanned leather, blackened by hand. Ages quietly.",
+    "sizes": [
+      "OS"
+    ],
+    "status": "active",
+    "inventory": 178
+  },
+  {
+    "id": "prd_wb38ftu0",
+    "slug": "sumi-cashmere-scarf",
+    "name": "Sumi Cashmere Scarf",
+    "collectionSlug": "sumi",
+    "priceCents": 16900,
+    "currency": "USD",
+    "images": [
+      "/images/products/sumi-cashmere-scarf-01.jpg"
+    ],
+    "description": "A double-faced cashmere scarf in two depths of charcoal.",
+    "sizes": [
+      "OS"
+    ],
+    "status": "active",
+    "inventory": 49
+  },
+  {
+    "id": "prd_4cxbipdy",
+    "slug": "ai-wide-trouser",
+    "name": "Ai Wide Trouser",
+    "collectionSlug": "ai",
+    "priceCents": 22900,
+    "currency": "USD",
+    "images": [
+      "/images/products/ai-wide-trouser-01.jpg"
+    ],
+    "description": "A fluid wide-leg in rope-dyed indigo. Dyed deep, worn long.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 109
+  },
+  {
+    "id": "prd_aa1li1aw",
+    "slug": "ai-haori-jacket",
+    "name": "Ai Haori Jacket",
+    "collectionSlug": "ai",
+    "priceCents": 27900,
+    "currency": "USD",
+    "images": [
+      "/images/products/ai-haori-jacket-01.jpg"
+    ],
+    "description": "An open-front haori in indigo-dyed cotton. Deepens with every wear.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 108
+  },
+  {
+    "id": "prd_z8or8qdm",
+    "slug": "ai-denim-shirt",
+    "name": "Ai Denim Shirt",
+    "collectionSlug": "ai",
+    "priceCents": 17900,
+    "currency": "USD",
+    "images": [
+      "/images/products/ai-denim-shirt-01.jpg"
+    ],
+    "description": "A boro-inspired denim shirt in slubby indigo. Keeps its own record.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 19
+  },
+  {
+    "id": "prd_ub61lo0i",
+    "slug": "ai-selvedge-jean",
+    "name": "Ai Selvedge Jean",
+    "collectionSlug": "ai",
+    "priceCents": 19900,
+    "currency": "USD",
+    "images": [
+      "/images/products/ai-selvedge-jean-01.jpg"
+    ],
+    "description": "A straight-leg selvedge jean, rope-dyed and raw. Made to fade to you.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 38
+  },
+  {
+    "id": "prd_odx4c4xv",
+    "slug": "ai-noragi-coat",
+    "name": "Ai Noragi Coat",
+    "collectionSlug": "ai",
+    "priceCents": 32900,
+    "currency": "USD",
+    "images": [
+      "/images/products/ai-noragi-coat-01.jpg"
+    ],
+    "description": "A patched noragi work coat in layered indigo. The longer it lives, the better it reads.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 180
+  },
+  {
+    "id": "prd_jj83wwmc",
+    "slug": "ai-indigo-scarf",
+    "name": "Ai Indigo Scarf",
+    "collectionSlug": "ai",
+    "priceCents": 14900,
+    "currency": "USD",
+    "images": [
+      "/images/products/ai-indigo-scarf-01.jpg"
+    ],
+    "description": "A hand-dyed modal scarf in graduated indigo, dusk to deep night.",
+    "sizes": [
+      "OS"
+    ],
+    "status": "active",
+    "inventory": 198
+  },
+  {
+    "id": "prd_vsn35wl0",
+    "slug": "hinoki-knit",
+    "name": "Hinoki Knit",
+    "collectionSlug": "hinoki",
+    "priceCents": 16900,
+    "currency": "USD",
+    "images": [
+      "/images/products/hinoki-knit-01.jpg"
+    ],
+    "description": "A brushed lambswool knit in warm cypress tones. Quiet warmth in the weave.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 1
+  },
+  {
+    "id": "prd_5jon8p8b",
+    "slug": "hinoki-cardigan",
+    "name": "Hinoki Cardigan",
+    "collectionSlug": "hinoki",
+    "priceCents": 22900,
+    "currency": "USD",
+    "images": [
+      "/images/products/hinoki-cardigan-01.jpg"
+    ],
+    "description": "A relaxed shawl-collar cardigan in soft wool. Warm to the hand.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 187
+  },
+  {
+    "id": "prd_nk3d98ze",
+    "slug": "hinoki-camp-collar",
+    "name": "Hinoki Camp Collar",
+    "collectionSlug": "hinoki",
+    "priceCents": 16900,
+    "currency": "USD",
+    "images": [
+      "/images/products/hinoki-camp-collar-01.jpg"
+    ],
+    "description": "A camp-collar shirt in earthy washed cotton, cut wide and easy.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 175
+  },
+  {
+    "id": "prd_ikh7qa0n",
+    "slug": "hinoki-lounge-pant",
+    "name": "Hinoki Lounge Pant",
+    "collectionSlug": "hinoki",
     "priceCents": 13900,
     "currency": "USD",
     "images": [
-      "https://picsum.photos/seed/omakase-shiro-oxford-1/900/1200",
-      "https://picsum.photos/seed/omakase-shiro-oxford-2/900/1200",
-      "https://picsum.photos/seed/omakase-shiro-oxford-3/900/1200"
+      "/images/products/hinoki-lounge-pant-01.jpg"
+    ],
+    "description": "A soft pull-on trouser in brushed cotton. The weight of an easy afternoon.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "coming-soon",
+    "inventory": 12
+  },
+  {
+    "id": "prd_wd0xfyyu",
+    "slug": "hinoki-wool-beanie",
+    "name": "Hinoki Wool Beanie",
+    "collectionSlug": "hinoki",
+    "priceCents": 7900,
+    "currency": "USD",
+    "images": [
+      "/images/products/hinoki-wool-beanie-01.jpg"
+    ],
+    "description": "A fine-gauge merino beanie in warm cedar. Folds to nothing.",
+    "sizes": [
+      "OS"
+    ],
+    "status": "active",
+    "inventory": 188
+  },
+  {
+    "id": "prd_b6kxpk3m",
+    "slug": "hinoki-carry-pouch",
+    "name": "Hinoki Carry Pouch",
+    "collectionSlug": "hinoki",
+    "priceCents": 12900,
+    "currency": "USD",
+    "images": [
+      "/images/products/hinoki-carry-pouch-01.jpg"
+    ],
+    "description": "A soft leather pouch for cords, keys, and small certainties.",
+    "sizes": [
+      "OS"
+    ],
+    "status": "active",
+    "inventory": 114
+  },
+  {
+    "id": "prd_vqppcatt",
+    "slug": "kuro-cap",
+    "name": "Kuro Cap",
+    "collectionSlug": "kuro",
+    "priceCents": 11900,
+    "currency": "USD",
+    "images": [
+      "/images/products/kuro-cap-01.jpg"
+    ],
+    "description": "A six-panel cap in matte black, numbered to the run. The drop.",
+    "sizes": [
+      "OS"
+    ],
+    "status": "coming-soon",
+    "inventory": 6
+  },
+  {
+    "id": "prd_isnpswcd",
+    "slug": "kuro-bomber",
+    "name": "Kuro Bomber",
+    "collectionSlug": "kuro",
+    "priceCents": 43900,
+    "currency": "USD",
+    "images": [
+      "/images/products/kuro-bomber-01.jpg"
+    ],
+    "description": "A limited bomber in coated black nylon. Made once, numbered, then gone.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 1
+  },
+  {
+    "id": "prd_gjal11tc",
+    "slug": "kuro-hooded-parka",
+    "name": "Kuro Hooded Parka",
+    "collectionSlug": "kuro",
+    "priceCents": 41900,
+    "currency": "USD",
+    "images": [
+      "/images/products/kuro-hooded-parka-01.jpg"
+    ],
+    "description": "A long technical parka in deep black. A small, numbered run.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 31
+  },
+  {
+    "id": "prd_7m31jjmq",
+    "slug": "kuro-cargo-trouser",
+    "name": "Kuro Cargo Trouser",
+    "collectionSlug": "kuro",
+    "priceCents": 27900,
+    "currency": "USD",
+    "images": [
+      "/images/products/kuro-cargo-trouser-01.jpg"
+    ],
+    "description": "A tapered cargo in matte black ripstop. Limited to the drop.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 13
+  },
+  {
+    "id": "prd_s9f20yup",
+    "slug": "kuro-heavyweight-hoodie",
+    "name": "Kuro Heavyweight Hoodie",
+    "collectionSlug": "kuro",
+    "priceCents": 17900,
+    "currency": "USD",
+    "images": [
+      "/images/products/kuro-heavyweight-hoodie-01.jpg"
+    ],
+    "description": "A boxy 14oz hoodie in pitch black, numbered inside the hem.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 6
+  },
+  {
+    "id": "prd_9jpnayqj",
+    "slug": "kuro-tabi-boot",
+    "name": "Kuro Tabi Boot",
+    "collectionSlug": "kuro",
+    "priceCents": 36900,
+    "currency": "USD",
+    "images": [
+      "/images/products/kuro-tabi-boot-01.jpg"
+    ],
+    "description": "A split-toe tabi boot in black leather. A single numbered run.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 10
+  },
+  {
+    "id": "prd_cr0411up",
+    "slug": "shiro-tee",
+    "name": "Shiro Tee",
+    "collectionSlug": "shiro",
+    "priceCents": 8900,
+    "currency": "USD",
+    "images": [
+      "/images/products/shiro-tee-01.jpg"
+    ],
+    "description": "The essential tee in dense white cotton. Holds its shape. Nothing extra.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 108
+  },
+  {
+    "id": "prd_h6femm1d",
+    "slug": "shiro-oxford",
+    "name": "Shiro Oxford",
+    "collectionSlug": "shiro",
+    "priceCents": 16900,
+    "currency": "USD",
+    "images": [
+      "/images/products/shiro-oxford-01.jpg"
     ],
     "description": "A crisp oxford in optic white. The shirt that finishes everything.",
     "sizes": [
@@ -688,21 +641,82 @@
       "XL"
     ],
     "status": "active",
-    "inventory": 193
+    "inventory": 189
   },
   {
-    "id": "prd_qsa6rtze",
+    "id": "prd_n52n0lxk",
     "slug": "shiro-crew",
     "name": "Shiro Crew",
     "collectionSlug": "shiro",
-    "priceCents": 12900,
+    "priceCents": 13900,
     "currency": "USD",
     "images": [
-      "https://picsum.photos/seed/omakase-shiro-crew-1/900/1200",
-      "https://picsum.photos/seed/omakase-shiro-crew-2/900/1200",
-      "https://picsum.photos/seed/omakase-shiro-crew-3/900/1200"
+      "/images/products/shiro-crew-01.jpg"
     ],
     "description": "A fine merino crew in clean white. Light, exact, restrained.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 101
+  },
+  {
+    "id": "prd_jxdyw723",
+    "slug": "shiro-wide-trouser",
+    "name": "Shiro Wide Trouser",
+    "collectionSlug": "shiro",
+    "priceCents": 14900,
+    "currency": "USD",
+    "images": [
+      "/images/products/shiro-wide-trouser-01.jpg"
+    ],
+    "description": "A fluid wide-leg in off-white twill. Calm from waist to hem.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 150
+  },
+  {
+    "id": "prd_2bu0ta4p",
+    "slug": "shiro-linen-shirt",
+    "name": "Shiro Linen Shirt",
+    "collectionSlug": "shiro",
+    "priceCents": 16900,
+    "currency": "USD",
+    "images": [
+      "/images/products/shiro-linen-shirt-01.jpg"
+    ],
+    "description": "Washed white linen, cut loose. Breathes before you do.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "status": "active",
+    "inventory": 162
+  },
+  {
+    "id": "prd_sa6rtzed",
+    "slug": "shiro-sleep-set",
+    "name": "Shiro Sleep Set",
+    "collectionSlug": "shiro",
+    "priceCents": 15900,
+    "currency": "USD",
+    "images": [
+      "/images/products/shiro-sleep-set-01.jpg"
+    ],
+    "description": "A two-piece in silk-finish white cotton. For the soft hours.",
     "sizes": [
       "XS",
       "S",
@@ -715,82 +729,13 @@
   },
   {
     "id": "prd_ufrr3wit",
-    "slug": "shiro-wide-trouser",
-    "name": "Shiro Wide Trouser",
-    "collectionSlug": "shiro",
-    "priceCents": 15900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-shiro-wide-trouser-1/900/1200",
-      "https://picsum.photos/seed/omakase-shiro-wide-trouser-2/900/1200",
-      "https://picsum.photos/seed/omakase-shiro-wide-trouser-3/900/1200"
-    ],
-    "description": "A fluid wide-leg in off-white twill. Calm from waist to hem.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 2
-  },
-  {
-    "id": "prd_w3byykmg",
-    "slug": "shiro-linen-shirt",
-    "name": "Shiro Linen Shirt",
-    "collectionSlug": "shiro",
-    "priceCents": 14900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-shiro-linen-shirt-1/900/1200",
-      "https://picsum.photos/seed/omakase-shiro-linen-shirt-2/900/1200"
-    ],
-    "description": "Washed white linen, cut loose. Breathes before you do.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 166
-  },
-  {
-    "id": "prd_ss3h2jfv",
-    "slug": "shiro-sleep-set",
-    "name": "Shiro Sleep Set",
-    "collectionSlug": "shiro",
-    "priceCents": 13900,
-    "currency": "USD",
-    "images": [
-      "https://picsum.photos/seed/omakase-shiro-sleep-set-1/900/1200",
-      "https://picsum.photos/seed/omakase-shiro-sleep-set-2/900/1200"
-    ],
-    "description": "A two-piece in silk-finish white cotton. For the soft hours.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "status": "active",
-    "inventory": 168
-  },
-  {
-    "id": "prd_m33p2tp2",
     "slug": "shiro-sneaker",
     "name": "Shiro Sneaker",
     "collectionSlug": "shiro",
-    "priceCents": 15900,
+    "priceCents": 17900,
     "currency": "USD",
     "images": [
-      "https://picsum.photos/seed/omakase-shiro-sneaker-1/900/1200",
-      "https://picsum.photos/seed/omakase-shiro-sneaker-2/900/1200",
-      "https://picsum.photos/seed/omakase-shiro-sneaker-3/900/1200"
+      "/images/products/shiro-sneaker-01.jpg"
     ],
     "description": "A minimal low-top in white leather. One clean line, nothing more.",
     "sizes": [
@@ -800,26 +745,24 @@
       "L",
       "XL"
     ],
-    "status": "active",
-    "inventory": 81
+    "status": "coming-soon",
+    "inventory": 5
   },
   {
-    "id": "prd_tyzrd3rk",
+    "id": "prd_0w3byykm",
     "slug": "shiro-ceramic-mug",
     "name": "Shiro Ceramic Mug",
     "collectionSlug": "shiro",
     "priceCents": 6900,
     "currency": "USD",
     "images": [
-      "https://picsum.photos/seed/omakase-shiro-ceramic-mug-1/900/1200",
-      "https://picsum.photos/seed/omakase-shiro-ceramic-mug-2/900/1200",
-      "https://picsum.photos/seed/omakase-shiro-ceramic-mug-3/900/1200"
+      "/images/products/shiro-ceramic-mug-01.jpg"
     ],
     "description": "A hand-thrown mug in matte white glaze. The smallest essential.",
     "sizes": [
       "OS"
     ],
     "status": "active",
-    "inventory": 108
+    "inventory": 72
   }
 ]
