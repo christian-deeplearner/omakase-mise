@@ -1,0 +1,82 @@
+# Omakase
+
+**Leave it to us.** A fictional Japanese-luxury DTC commerce app — a customer-facing **storefront** and an operator **command center** over one deterministic fake-data layer. Curated essentials, chosen for you: considered, calm, and built to last.
+
+Omakase is a teaching artifact. It was built by a Claude Code **agent team** for the "How to Become a 100x Engineer" webinar, and it ships with the thing it teaches: a working **memory base** (`knowledge-base/`) and a real **harness** (`.claude/`). Nothing here is real — Omakase sells fictional goods, the data is seeded with faker, and the whole repo is safe to read on a screen.
+
+> The model is not the moat. Your context is.
+
+---
+
+## The meta-story
+
+This repo, and the deck that presents it, were built by the method they teach. A named agent team — a director who orchestrates and never codes, plus engineers, a designer, and QA — ran the **Context → Plan → Build → Ship** loop, read the memory base before acting, wrote its decisions back into `knowledge-base/decisions/`, and verified every surface with Playwright before calling it done. The repo you clone is therefore not an empty template. It is a memory base that already compounded.
+
+If you want to see how, read `workflows/build-webinar.md` and `knowledge-base/decisions/`.
+
+---
+
+## Two missions
+
+### Mission 1 — Clone + run
+Get an AI-native command center on your machine and see Omakase running locally.
+
+```bash
+pnpm install
+pnpm dev
+```
+
+- Storefront: <http://localhost:3000>
+- Command center: <http://localhost:3000/overview>
+
+Both surfaces render on seeded fake data. Regenerate the fixtures any time — deterministically — with `pnpm seed`.
+
+### Mission 2 — Build a surface with an agent team, then verify it
+Open Claude Code with agent teams enabled, point the team at a brief, and build a real surface — a collection page, a PDP, a command-center view. Then prove it works with Playwright before you call it done.
+
+```bash
+# enable the experimental agent team
+CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 claude
+
+# verify the change end-to-end
+pnpm test:e2e
+```
+
+The killer test (`e2e/storefront-checkout.spec.ts`) drives a checkout on the storefront, then asserts the order appears in the command center's Orders view and the Overview KPIs update — customer action → operator visibility → verified end-to-end.
+
+---
+
+## How to run
+
+| Step | Command |
+|---|---|
+| Install | `pnpm install` |
+| Dev (both surfaces) | `pnpm dev` |
+| Production build | `pnpm build` |
+| Regenerate fixtures (deterministic) | `pnpm seed` |
+| Lint | `pnpm lint` |
+| End-to-end tests | `pnpm test:e2e` *(added during Mission 2)* |
+
+Requires Node (use `nvm`) and `pnpm`.
+
+---
+
+## What's in here
+
+```
+CLAUDE.md            # the company operating doc — read this first
+knowledge-base/      # the memory base: voice, customer, standards, brand, decisions, learnings
+.claude/             # the harness: agents (named staff), skills, commands, settings + hooks
+workflows/           # sequence + gate workflows (incl. build-webinar.md — the meta-artifact)
+src/                 # the Next.js app (storefront + command center) and shared lib
+```
+
+Start with **`CLAUDE.md`**. It is the operating doc the agents read before they do anything — and the clearest map of how Omakase works. The canonical brand doc (Sand+Clay tokens, voice, the six collections) lives at `knowledge-base/brand/omakase-brand.md`.
+
+---
+
+## A note on what this is and isn't
+
+- **Fictional.** Omakase is invented. No real brand, no real customer data, no real products.
+- **Deterministic.** Faker is seeded, so the demo is the same every run.
+- **Honest about limits.** The value here isn't "autonomous agents." The value is that the workflow has a home — a memory base agents read, standards they verify against, and a review link at the end so a human can always click and check.

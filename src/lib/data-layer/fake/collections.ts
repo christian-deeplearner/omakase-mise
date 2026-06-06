@@ -1,0 +1,61 @@
+// Omakase's collections — the tasting menu. Hand-authored (not faker-random)
+// because collection identity is editorial, not synthetic. These are the spine
+// the products hang from; everything downstream references collection slugs.
+
+import type { Collection } from "@/lib/types";
+
+export const COLLECTIONS: readonly Collection[] = [
+  {
+    slug: "kinari",
+    name: "Kinari",
+    glyph: "生",
+    tagline: "Left as it was found.",
+    description:
+      "Unbleached naturals. Raw cotton and undyed linen in the color they came in. Our foundation line — nothing added, nothing taken.",
+  },
+  {
+    slug: "sumi",
+    name: "Sumi",
+    glyph: "墨",
+    tagline: "One line, drawn once.",
+    description:
+      "Dark essentials in deep charcoal and warm sumi-black. Precise tailoring and heavier weights. The pieces you reach for without thinking.",
+  },
+  {
+    slug: "ai",
+    name: "Ai",
+    glyph: "藍",
+    tagline: "Dyed deep. Worn long.",
+    description:
+      "Indigo-dyed cottons and denims that deepen with wear. Rope-dyed by hand, made to keep their own record over years.",
+  },
+  {
+    slug: "hinoki",
+    name: "Hinoki",
+    glyph: "檜",
+    tagline: "Warm to the hand.",
+    description:
+      "Cypress-warm naturals — brushed knits, soft wovens, and earthy neutrals. Quiet warmth in the weight and the weave.",
+  },
+  {
+    slug: "kuro",
+    name: "Kuro",
+    glyph: "黒",
+    tagline: "The drop.",
+    description:
+      "The limited black line. Numbered, low inventory, made once. When it is gone, it is gone.",
+  },
+  {
+    slug: "shiro",
+    name: "Shiro",
+    glyph: "白",
+    tagline: "Nothing extra.",
+    description:
+      "Clean whites. The essential tee, the crisp oxford, the white that holds its shape. Restraint, in its plainest form.",
+  },
+];
+
+export function getCollectionsSeed(): Collection[] {
+  // Return a fresh array copy so callers can't mutate the canonical list.
+  return COLLECTIONS.map((c) => ({ ...c }));
+}

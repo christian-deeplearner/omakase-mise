@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Become a 100x Engineer</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/theme/white.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/highlight/monokai.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&family=Geist:wght@300;400;500&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --paper:#F3EEE6; --card:#FAF6EF; --ink:#21201C; --muted:#6F695E;
+      --hairline:#E6DFD3; --panel:#21201C; --panel-2:#2C2A24; --accent:#B0744F; --accent-soft:#D9CBB8; --positive:#4E7A52; --critical:#A23A2E;
+      --serif:"Newsreader",Georgia,serif; --sans:"Geist",ui-sans-serif,system-ui,sans-serif; --mono:"Geist Mono",ui-monospace,monospace;
+      --radius:12px;
+    }
+    .reveal-viewport { background: var(--paper); }
+    .reveal { font-family: var(--sans); color: var(--ink); font-weight: 300; font-size: 30px; }
+    .reveal .slides { text-align: left; }
+    .reveal .slides section { padding: 10px 40px; }
+
+    .reveal h1, .reveal h2 { font-family: var(--serif); font-weight: 400; color: var(--ink); text-transform: none; letter-spacing: -0.015em; line-height: 1.0; margin: 0 0 0.3em; }
+    .reveal h1 { font-size: 3.2em; }
+    .reveal h2 { font-size: 2.1em; }
+    .reveal p { line-height: 1.5; margin: 0.45em 0; }
+    .reveal em { font-style: italic; color: var(--accent); }
+    .reveal strong { font-weight: 500; }
+    .reveal a { color: var(--accent); }
+
+    .label { font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.18em; font-size: 0.55em; color: var(--muted); }
+    .label.accent { color: var(--accent); }
+    .lead { font-family: var(--serif); font-size: 1.5em; line-height: 1.2; }
+    .muted { color: var(--muted); }
+    .big { font-family: var(--serif); font-size: 2.5em; line-height: 1.05; }
+    .punch { font-family: var(--serif); font-size: 1.3em; line-height: 1.2; color: var(--ink); margin-top: 0.55em; }
+    .punch em { color: var(--accent); }
+    hr { border: 0; border-top: 1px solid var(--hairline); margin: 0.6em 0; }
+
+    /* numbered rows (the loop, the setup, the flywheel) */
+    .loop { margin-top: 0.5em; }
+    .loop .step { display: grid; grid-template-columns: 1.4em 7.5em 1fr; gap: 0.8em; align-items: baseline; padding: 0.45em 0; border-top: 1px solid var(--hairline); }
+    .loop .step:last-child { border-bottom: 1px solid var(--hairline); }
+    .loop .n { font-family: var(--mono); color: var(--accent); font-size: 0.7em; }
+    .loop .k { font-family: var(--serif); font-size: 1.15em; }
+    .loop .v { color: var(--muted); font-size: 0.78em; align-self: center; }
+
+    /* team roster */
+    .team { margin-top: 0.4em; }
+    .team .m { display: grid; grid-template-columns: 11.5em 1fr; gap: 1.1em; align-items: baseline; padding: 0.38em 0; border-top: 1px solid var(--hairline); }
+    .team .m:last-child { border-bottom: 1px solid var(--hairline); }
+    .team .nm { font-family: var(--mono); color: var(--accent); font-size: 0.72em; }
+    .team .ro { font-size: 0.8em; }
+    .team .ro .x { color: var(--muted); }
+
+    /* prompt + terminal cards */
+    .from { font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.5em; color: var(--muted); margin: 0.4em 0 0.2em; }
+    .prompt, .term { font-family: var(--mono); font-size: 0.6em; line-height: 1.5; border-radius: var(--radius); padding: 0.85em 1.05em; white-space: pre-wrap; word-break: break-word; }
+    .prompt { background: var(--card); color: var(--ink); border: 1px solid var(--hairline); }
+    .term { background: var(--panel); color: var(--paper); border: 1px solid var(--panel-2); }
+
+    .demo { font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.2em; font-size: 0.5em; color: var(--paper); background: var(--critical); border-radius: 999px; padding: 0.35em 0.7em; display: inline-block; font-weight: 500; }
+    .demo::before { content: "● "; }
+
+    section.dark { background: var(--panel) !important; }
+    .reveal section.dark h1, .reveal section.dark h2, .reveal section.dark p { color: var(--paper); }
+    .reveal section.dark .label { color: var(--accent-soft); }
+    .reveal section.dark em { color: var(--accent-soft); }
+
+    .mark { position: fixed; bottom: 16px; left: 24px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.2em; font-size: 10px; color: var(--muted); z-index: 30; }
+    .reveal .slide-number { background: transparent; color: var(--muted); font-family: var(--mono); }
+    .reveal .progress { color: var(--accent); }
+    .reveal .controls { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="mark">Omakase · お任せ</div>
+  <div class="reveal"><div class="slides">
+
+    <!-- 1 · Title -->
+    <section data-background-color="#F3EEE6">
+      <span class="label">Live Workshop · Omakase</span>
+      <h1>How to Become a<br/>100x&nbsp;Engineer</h1>
+      <hr/>
+      <p class="lead">One loop. Built live.</p>
+      <p class="muted">We'll learn one simple loop — then watch a team of AI agents build a real app from scratch with it, live.</p>
+      <aside class="notes">No theory dump. We teach one loop, break down the machinery that scales it, then rebuild a real app (Omakase — "Leave it to us.") from scratch live with an agent team. By the end you'll have the prompt to do it yourself.</aside>
+    </section>
+
+    <!-- 2 · What 100x means -->
+    <section data-background-color="#F3EEE6">
+      <span class="label accent">The idea</span>
+      <p class="big">100x isn't speed.<br/>It's a loop.</p>
+      <p class="muted">Everyone has the same model. The difference is the four moves you make around it — and the machine you build to run them. Same chef, better kitchen.</p>
+      <aside class="notes">Kill the "type faster" myth. Leverage is the loop plus the harness around it, not keystrokes.</aside>
+    </section>
+
+    <!-- 3 · The loop -->
+    <section data-background-color="#F3EEE6">
+      <span class="label">The whole method</span>
+      <h2>Context → Plan → Build → Ship</h2>
+      <div class="loop">
+        <div class="step"><span class="n">01</span><span class="k">Context</span><span class="v">Tell it what you're building.</span></div>
+        <div class="step"><span class="n">02</span><span class="k">Plan</span><span class="v">Ask for a plan first. Read it. Approve.</span></div>
+        <div class="step"><span class="n">03</span><span class="k">Build</span><span class="v">Let it write the code. Run it.</span></div>
+        <div class="step"><span class="n">04</span><span class="k">Ship</span><span class="v">Put it online. Send the link.</span></div>
+      </div>
+      <p class="muted" style="margin-top:0.6em;">That's it. Everything else makes this loop bigger, faster, and self-improving.</p>
+      <aside class="notes">The only framework in the talk. Next we break down the three things that scale this loop — then we run it live.</aside>
+    </section>
+
+    <!-- 4 · Harness -->
+    <section data-background-color="#F3EEE6">
+      <span class="label accent">The machinery · 01</span>
+      <h2>The harness.</h2>
+      <p>Everything around the model — your files, your tools, your rules, your checks. The model reasons; the <strong>harness</strong> decides what it sees, what it can do, and what counts as done.</p>
+      <p class="punch">A better harness beats a better model. And it <em>improves the loop itself</em> — every run writes a lesson back, every mistake becomes a rule.</p>
+      <aside class="notes">This is the word of the year — Anthropic, OpenAI, everyone. The model is a commodity; the harness is your edge. Key idea to plant: the harness is not static. It learns. CLAUDE.md + a knowledge-base + checks = a harness that gets better each lap.</aside>
+    </section>
+
+    <!-- 5 · Agent Teams -->
+    <section data-background-color="#F3EEE6">
+      <span class="label accent">The machinery · 02</span>
+      <h2>Agent teams.</h2>
+      <p>Not one assistant — a small team of <strong>named specialists</strong> with one lead: a builder, a designer, a tester. You direct; they work in parallel on different files.</p>
+      <p class="punch">And they <em>self-refine</em> — the memory base and each agent's job description accumulate what worked. Next time, the team is sharper.</p>
+      <aside class="notes">Reframe sub-agents from "parallel processes" to "named staff with job descriptions." You multiply judgment, not replace it. Self-improvement: personas + knowledge-base compound, so the team you hire today is better next week. Enable with one flag (we'll see it live).</aside>
+    </section>
+
+    <!-- 6 · Workflows -->
+    <section data-background-color="#F3EEE6">
+      <span class="label accent">The machinery · 03</span>
+      <h2>Workflows.</h2>
+      <p>The steps, <strong>written down once</strong>, so the AI runs them the same way every time: <em>Plan → Build → Verify → Ship</em>, with binary gates. Repeatable quality, hands-off.</p>
+      <p class="punch">Dynamic — the workflow fans out work, checks itself, and <em>tightens with every run</em>.</p>
+      <aside class="notes">A workflow moves the plan out of turn-by-turn chat and into a repeatable recipe with gates. "A gate is binary — mostly-works is not passed." Dynamic workflows can parallelize and self-check (adversarial review). It's the loop, automated and reliable.</aside>
+    </section>
+
+    <!-- 7 · It compounds -->
+    <section class="dark" data-background-color="#21201C">
+      <span class="label">Why it wins</span>
+      <p class="big" style="color:var(--paper);">The loop that<br/>improves itself.</p>
+      <div class="loop">
+        <div class="step" style="border-color:var(--panel-2);"><span class="n">→</span><span class="k" style="color:var(--paper);">Run</span><span class="v" style="color:var(--accent-soft);">The team builds, verifies, ships.</span></div>
+        <div class="step" style="border-color:var(--panel-2);"><span class="n">→</span><span class="k" style="color:var(--paper);">Capture</span><span class="v" style="color:var(--accent-soft);">Decisions + learnings written back to the memory base.</span></div>
+        <div class="step" style="border-color:var(--panel-2);border-bottom-color:var(--panel-2);"><span class="n">→</span><span class="k" style="color:var(--paper);">Compound</span><span class="v" style="color:var(--accent-soft);">The next lap starts smarter.</span></div>
+      </div>
+      <p style="color:var(--accent-soft);margin-top:0.6em;">You're not just shipping features. You're upgrading the machine that ships them.</p>
+      <aside class="notes">This is the payoff slide and the heart of the talk. Self-learning isn't magic — it's a discipline: write back what you decided and learned, every iteration. The harness compounds while you sleep. Tie back to the harness slide.</aside>
+    </section>
+
+    <!-- 8 · The team that builds Omakase -->
+    <section data-background-color="#F3EEE6">
+      <span class="label">The team that builds it</span>
+      <h2>Named staff, one lead.</h2>
+      <div class="team">
+        <div class="m"><span class="nm">director</span><span class="ro">Orchestrates, holds the gates. <span class="x">Never writes code.</span></span></div>
+        <div class="m"><span class="nm">tpm</span><span class="ro">Turns the goal into ordered tasks with a binary "done."</span></div>
+        <div class="m"><span class="nm">cto</span><span class="ro">Architecture + the build/type gate. Final sign-off.</span></div>
+        <div class="m"><span class="nm">fullstack-engineer</span><span class="ro">The surfaces + the fake-data seam. <span class="x">The one who types.</span></span></div>
+        <div class="m"><span class="nm">ui-ux-designer</span><span class="ro">The editorial-luxury design system.</span></div>
+        <div class="m"><span class="nm">qa</span><span class="ro">Playwright proof. <span class="x">Proves behavior; never asserts it.</span></span></div>
+      </div>
+      <p class="muted" style="margin-top:0.5em;">Each is one markdown file in <em>.claude/agents/</em>. Parallel on separate files; serial through the gates.</p>
+      <aside class="notes">These are the real agents in the repo — one .md job description each. Show the folder live if you can. The point: you HIRE a team by writing files. director leads and never codes; qa is the one who says "done." This is the harness made concrete.</aside>
+    </section>
+
+    <!-- 9 · The starter prompt -->
+    <section data-background-color="#F3EEE6">
+      <span class="label accent">The go button</span>
+      <h2>One prompt. From scratch.</h2>
+      <p class="muted">Paste this into a fresh Claude Code session — it plans, builds with the team, verifies, and ships, using the repo's best practices.</p>
+      <div class="loop">
+        <div class="step"><span class="n">1</span><span class="k">Memory base</span><span class="v">CLAUDE.md + knowledge-base/ first.</span></div>
+        <div class="step"><span class="n">2</span><span class="k">Harness</span><span class="v">.claude/agents + settings + a gated workflow.</span></div>
+        <div class="step"><span class="n">3</span><span class="k">Plan</span><span class="v">Plan mode. You approve before any code.</span></div>
+        <div class="step"><span class="n">4</span><span class="k">Build</span><span class="v">The team builds storefront + command center in parallel.</span></div>
+        <div class="step"><span class="n">5</span><span class="k">Prove + ship</span><span class="v">Playwright full-loop, deploy, write the lesson back.</span></div>
+      </div>
+      <p class="from">full prompt → deck/starter-prompt.md (copy-paste)</p>
+      <aside class="notes">This is the artifact they take home. Walk the 6 moves once, then open starter-prompt.md and copy it. The full text encodes every best practice from the real repo. This is what turns "watch me" into "you can do this tonight."</aside>
+    </section>
+
+    <!-- 10 · Build it live -->
+    <section data-background-color="#F3EEE6">
+      <span class="demo">Live</span> <span class="label" style="margin-left:0.5em;">Build it — from nothing</span>
+      <h2>Watch the loop run.</h2>
+      <p class="from">enable the team, then paste the starter prompt</p>
+      <div class="term">CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 claude</div>
+      <p class="muted" style="margin-top:0.4em;">It writes the memory base → <strong>plans</strong> (you approve) → the team builds <strong>Omakase</strong> — "Leave it to us." — its storefront and command center <strong>in parallel</strong> on one fake-data seam. Six collections (Kinari · Sumi · Ai · Hinoki · Kuro · Shiro). Same loop as slide 3 — just bigger.</p>
+      <aside class="notes">The big moment. Empty folder → paste prompt. The example brand is Omakase ("Leave it to us.") with six collections — Kinari, Sumi, Ai, Hinoki, Kuro, Shiro. Narrate the loop as it runs: point back to Context→Plan→Build→Ship. Pause at the plan gate and actually read/approve it on stage. If a step stalls, keep talking — the plan is the lesson, not the speed.</aside>
+    </section>
+
+    <!-- 11 · Prove it + ship it -->
+    <section data-background-color="#F3EEE6">
+      <span class="demo">Live</span> <span class="label" style="margin-left:0.5em;">Verify · Ship · Write it back</span>
+      <h2>Prove it. Ship it.</h2>
+      <p>qa writes the test that <em>is</em> the thesis: a customer checks out on the storefront → that exact order shows up in the command center.</p>
+      <div class="term">pnpm test:e2e   →   green</div>
+      <p class="muted" style="margin-top:0.4em;">Then deploy, send the link — and write what we learned back to <em>knowledge-base/</em>, so the next build starts smarter.</p>
+      <aside class="notes">Verification is the 100x differentiator — prove behavior, don't assert it. The full-loop test (checkout → command center) is the whole app proven in one run. Close the loop on stage by committing a decision/learning back — that's the compounding harness in action.</aside>
+    </section>
+
+    <!-- 12 · Recap + CTA -->
+    <section class="dark" data-background-color="#21201C">
+      <span class="label">That's the loop</span>
+      <h2>Context → Plan → Build → Ship.<br/>Then write it back.</h2>
+      <p>One loop. A harness that learns. A team that refines. Run it, capture what you learned, run it again — that's the 100x habit.</p>
+      <hr/>
+      <p class="lead">Tonight: clone the repo, run the starter prompt, build one thing.</p>
+      <p class="muted">github.com/christian-deeplearner/omakase-mise</p>
+      <aside class="notes">Close on the habit, not the hype: one loop, a memory base, repeat — and it compounds. Homework: enable agent teams, run the starter prompt, ship one thing before tomorrow. Q&A.</aside>
+    </section>
+
+  </div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/notes/notes.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/highlight/highlight.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: 'c/t',
+      controls: true,
+      progress: true,
+      transition: 'fade',
+      plugins: [RevealNotes, RevealHighlight],
+    });
+  </script>
+</body>
+</html>

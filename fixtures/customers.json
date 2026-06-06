@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "cus_z2jyimpg",
+    "name": "Annette O'Hara",
+    "email": "annette_ohara@omakase-demo.test",
+    "location": "Stockholm, SE",
+    "createdAt": "2025-08-18T06:52:13.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_o5wtyqmf",
+    "name": "Allie Toy-Klocko",
+    "email": "allie_toy-klocko27@omakase-demo.test",
+    "location": "Toronto, CA",
+    "createdAt": "2025-06-18T08:35:04.000Z",
+    "ordersCount": 5,
+    "ltvCents": 252300,
+    "lastOrderAt": "2026-06-02T05:52:24.000Z"
+  },
+  {
+    "id": "cus_zjryu8g4",
+    "name": "Alfonso Yost",
+    "email": "alfonso.yost59@omakase-demo.test",
+    "location": "Mexico City, MX",
+    "createdAt": "2024-07-03T20:50:28.000Z",
+    "ordersCount": 2,
+    "ltvCents": 41900,
+    "lastOrderAt": "2026-04-22T16:29:54.000Z"
+  },
+  {
+    "id": "cus_p740clef",
+    "name": "Max Bruen",
+    "email": "max_bruen@omakase-demo.test",
+    "location": "Toronto, CA",
+    "createdAt": "2025-05-10T20:33:33.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_454n6cwh",
+    "name": "Pauline Stoltenberg",
+    "email": "pauline_stoltenberg@omakase-demo.test",
+    "location": "Amsterdam, NL",
+    "createdAt": "2025-05-29T06:27:58.000Z",
+    "ordersCount": 2,
+    "ltvCents": 114600,
+    "lastOrderAt": "2026-05-30T23:02:39.000Z"
+  },
+  {
+    "id": "cus_sm2vx29t",
+    "name": "Angelica Dare",
+    "email": "angelica.dare12@omakase-demo.test",
+    "location": "Lisbon, PT",
+    "createdAt": "2025-12-13T08:30:41.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_d0b7b4wl",
+    "name": "Hattie Hills",
+    "email": "hattie.hills74@omakase-demo.test",
+    "location": "Amsterdam, NL",
+    "createdAt": "2025-11-11T17:53:30.000Z",
+    "ordersCount": 2,
+    "ltvCents": 102300,
+    "lastOrderAt": "2026-04-15T22:05:27.000Z"
+  },
+  {
+    "id": "cus_56a6w2ie",
+    "name": "Bert Rodriguez",
+    "email": "bert.rodriguez12@omakase-demo.test",
+    "location": "Mexico City, MX",
+    "createdAt": "2025-08-27T15:34:21.000Z",
+    "ordersCount": 1,
+    "ltvCents": 77600,
+    "lastOrderAt": "2026-06-01T14:52:53.000Z"
+  },
+  {
+    "id": "cus_lak5hj1c",
+    "name": "Vickie Gerhold",
+    "email": "vickie.gerhold@omakase-demo.test",
+    "location": "Austin, TX",
+    "createdAt": "2025-04-15T13:16:46.000Z",
+    "ordersCount": 3,
+    "ltvCents": 105700,
+    "lastOrderAt": "2026-06-02T19:47:15.000Z"
+  },
+  {
+    "id": "cus_qku5s755",
+    "name": "Ena Parker",
+    "email": "ena_parker59@omakase-demo.test",
+    "location": "Seoul, KR",
+    "createdAt": "2025-07-24T08:55:49.000Z",
+    "ordersCount": 1,
+    "ltvCents": 84500,
+    "lastOrderAt": "2026-05-09T10:19:33.000Z"
+  },
+  {
+    "id": "cus_xmc5smjw",
+    "name": "Frankie Schumm",
+    "email": "frankie.schumm37@omakase-demo.test",
+    "location": "Tokyo, JP",
+    "createdAt": "2025-10-08T17:30:13.000Z",
+    "ordersCount": 2,
+    "ltvCents": 50000,
+    "lastOrderAt": "2026-05-25T05:01:50.000Z"
+  },
+  {
+    "id": "cus_noj9c6wl",
+    "name": "Doris Marks",
+    "email": "doris_marks87@omakase-demo.test",
+    "location": "London, UK",
+    "createdAt": "2024-10-14T02:50:07.000Z",
+    "ordersCount": 1,
+    "ltvCents": 8100,
+    "lastOrderAt": "2026-05-20T09:46:46.000Z"
+  },
+  {
+    "id": "cus_xg4zu4xv",
+    "name": "Callie Moore",
+    "email": "callie.moore@omakase-demo.test",
+    "location": "Berlin, DE",
+    "createdAt": "2025-04-09T16:55:42.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_fwdkm0n6",
+    "name": "Angelo Abshire",
+    "email": "angelo.abshire@omakase-demo.test",
+    "location": "Mexico City, MX",
+    "createdAt": "2024-08-07T08:20:44.000Z",
+    "ordersCount": 1,
+    "ltvCents": 23800,
+    "lastOrderAt": "2026-06-03T04:05:21.000Z"
+  },
+  {
+    "id": "cus_fek56vyd",
+    "name": "Bertha Mertz",
+    "email": "bertha.mertz74@omakase-demo.test",
+    "location": "San Francisco, CA",
+    "createdAt": "2024-08-22T04:11:02.000Z",
+    "ordersCount": 1,
+    "ltvCents": 16100,
+    "lastOrderAt": "2026-05-30T22:14:51.000Z"
+  },
+  {
+    "id": "cus_uteo7aw0",
+    "name": "Alfonso Oberbrunner",
+    "email": "alfonso.oberbrunner22@omakase-demo.test",
+    "location": "Los Angeles, CA",
+    "createdAt": "2025-01-25T00:06:47.000Z",
+    "ordersCount": 3,
+    "ltvCents": 182400,
+    "lastOrderAt": "2026-04-27T04:01:17.000Z"
+  },
+  {
+    "id": "cus_5vhwsf09",
+    "name": "Clara Trantow",
+    "email": "clara_trantow34@omakase-demo.test",
+    "location": "Berlin, DE",
+    "createdAt": "2025-08-15T14:16:37.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_vlln6wfd",
+    "name": "Carlton Leffler-Dach",
+    "email": "carlton.leffler-dach@omakase-demo.test",
+    "location": "Berlin, DE",
+    "createdAt": "2026-02-12T13:16:33.000Z",
+    "ordersCount": 1,
+    "ltvCents": 66800,
+    "lastOrderAt": "2026-05-07T09:59:17.000Z"
+  },
+  {
+    "id": "cus_l1hlcr32",
+    "name": "Nellie Franecki",
+    "email": "nellie.franecki28@omakase-demo.test",
+    "location": "Lisbon, PT",
+    "createdAt": "2024-12-24T07:33:28.000Z",
+    "ordersCount": 2,
+    "ltvCents": 83600,
+    "lastOrderAt": "2026-05-23T08:06:37.000Z"
+  },
+  {
+    "id": "cus_tnou8h7z",
+    "name": "Hulda Schmidt",
+    "email": "hulda_schmidt@omakase-demo.test",
+    "location": "Toronto, CA",
+    "createdAt": "2025-08-28T02:55:08.000Z",
+    "ordersCount": 3,
+    "ltvCents": 102400,
+    "lastOrderAt": "2026-05-30T19:45:45.000Z"
+  },
+  {
+    "id": "cus_842pcq2b",
+    "name": "Tiara Von",
+    "email": "tiara.von69@omakase-demo.test",
+    "location": "Berlin, DE",
+    "createdAt": "2024-08-04T23:56:28.000Z",
+    "ordersCount": 5,
+    "ltvCents": 236500,
+    "lastOrderAt": "2026-05-17T00:07:56.000Z"
+  },
+  {
+    "id": "cus_vzrffq83",
+    "name": "Luke Feest",
+    "email": "luke.feest87@omakase-demo.test",
+    "location": "Denver, CO",
+    "createdAt": "2024-09-07T12:56:47.000Z",
+    "ordersCount": 1,
+    "ltvCents": 54700,
+    "lastOrderAt": "2026-06-01T00:46:08.000Z"
+  },
+  {
+    "id": "cus_z8xnli86",
+    "name": "Dianna Yundt",
+    "email": "dianna.yundt@omakase-demo.test",
+    "location": "Chicago, IL",
+    "createdAt": "2025-12-05T22:47:05.000Z",
+    "ordersCount": 3,
+    "ltvCents": 144000,
+    "lastOrderAt": "2026-06-03T14:54:17.000Z"
+  },
+  {
+    "id": "cus_v94vyvtn",
+    "name": "Felicita Torp-Walter",
+    "email": "felicita_torp-walter17@omakase-demo.test",
+    "location": "Copenhagen, DK",
+    "createdAt": "2024-11-27T16:09:48.000Z",
+    "ordersCount": 2,
+    "ltvCents": 77900,
+    "lastOrderAt": "2026-05-12T19:12:28.000Z"
+  },
+  {
+    "id": "cus_vsnuvpup",
+    "name": "Hazel Kunze",
+    "email": "hazel.kunze@omakase-demo.test",
+    "location": "Amsterdam, NL",
+    "createdAt": "2026-03-13T20:29:28.000Z",
+    "ordersCount": 4,
+    "ltvCents": 145700,
+    "lastOrderAt": "2026-05-30T11:49:36.000Z"
+  },
+  {
+    "id": "cus_9mjs3rjy",
+    "name": "Carey Barrows",
+    "email": "carey_barrows12@omakase-demo.test",
+    "location": "Seattle, WA",
+    "createdAt": "2024-12-07T03:49:49.000Z",
+    "ordersCount": 1,
+    "ltvCents": 15100,
+    "lastOrderAt": "2026-05-24T19:47:07.000Z"
+  },
+  {
+    "id": "cus_00bhrog9",
+    "name": "Autumn Bernhard",
+    "email": "autumn.bernhard70@omakase-demo.test",
+    "location": "Mexico City, MX",
+    "createdAt": "2025-03-28T08:37:02.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_ew871ndv",
+    "name": "Chelsea Ernser",
+    "email": "chelsea.ernser@omakase-demo.test",
+    "location": "Paris, FR",
+    "createdAt": "2025-10-28T22:09:25.000Z",
+    "ordersCount": 5,
+    "ltvCents": 245400,
+    "lastOrderAt": "2026-05-20T19:51:28.000Z"
+  },
+  {
+    "id": "cus_h2k9sbg0",
+    "name": "Sergio Sporer",
+    "email": "sergio_sporer62@omakase-demo.test",
+    "location": "Los Angeles, CA",
+    "createdAt": "2026-04-12T22:36:47.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_i3c12e4k",
+    "name": "Lucille Stokes",
+    "email": "lucille_stokes3@omakase-demo.test",
+    "location": "Amsterdam, NL",
+    "createdAt": "2026-02-21T05:59:08.000Z",
+    "ordersCount": 2,
+    "ltvCents": 163500,
+    "lastOrderAt": "2026-05-31T03:03:37.000Z"
+  },
+  {
+    "id": "cus_tgniq228",
+    "name": "Clark Quigley",
+    "email": "clark.quigley93@omakase-demo.test",
+    "location": "Portland, OR",
+    "createdAt": "2025-04-25T17:52:42.000Z",
+    "ordersCount": 4,
+    "ltvCents": 52300,
+    "lastOrderAt": "2026-05-20T18:45:18.000Z"
+  },
+  {
+    "id": "cus_gvqqfcdz",
+    "name": "Wesley Schamberger",
+    "email": "wesley_schamberger@omakase-demo.test",
+    "location": "Brooklyn, NY",
+    "createdAt": "2024-12-24T05:59:58.000Z",
+    "ordersCount": 3,
+    "ltvCents": 83800,
+    "lastOrderAt": "2026-05-19T10:35:30.000Z"
+  },
+  {
+    "id": "cus_8y6uh8vg",
+    "name": "Howard Swift",
+    "email": "howard_swift42@omakase-demo.test",
+    "location": "Berlin, DE",
+    "createdAt": "2025-03-21T21:12:37.000Z",
+    "ordersCount": 4,
+    "ltvCents": 208600,
+    "lastOrderAt": "2026-05-27T17:31:17.000Z"
+  },
+  {
+    "id": "cus_mp661qnh",
+    "name": "Carmella Gerlach-O'Reilly",
+    "email": "carmella.gerlach-oreilly77@omakase-demo.test",
+    "location": "Seoul, KR",
+    "createdAt": "2024-07-03T10:14:04.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_0ynvgiho",
+    "name": "Samir Glover",
+    "email": "samir.glover@omakase-demo.test",
+    "location": "Austin, TX",
+    "createdAt": "2026-04-07T02:27:56.000Z",
+    "ordersCount": 2,
+    "ltvCents": 138200,
+    "lastOrderAt": "2026-04-30T22:39:49.000Z"
+  },
+  {
+    "id": "cus_1xoo7nen",
+    "name": "Minnie Wisozk",
+    "email": "minnie.wisozk67@omakase-demo.test",
+    "location": "Austin, TX",
+    "createdAt": "2024-09-12T04:41:50.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_j0bdepdg",
+    "name": "Alvah Strosin",
+    "email": "alvah_strosin@omakase-demo.test",
+    "location": "Chicago, IL",
+    "createdAt": "2024-09-04T09:19:40.000Z",
+    "ordersCount": 1,
+    "ltvCents": 78600,
+    "lastOrderAt": "2026-05-14T07:38:51.000Z"
+  },
+  {
+    "id": "cus_tpy070nw",
+    "name": "Barbara Mraz",
+    "email": "barbara.mraz@omakase-demo.test",
+    "location": "Chicago, IL",
+    "createdAt": "2025-05-11T11:01:20.000Z",
+    "ordersCount": 5,
+    "ltvCents": 220400,
+    "lastOrderAt": "2026-05-26T07:05:54.000Z"
+  },
+  {
+    "id": "cus_6ip3k9yh",
+    "name": "Tomas Kuhic",
+    "email": "tomas.kuhic28@omakase-demo.test",
+    "location": "Seoul, KR",
+    "createdAt": "2024-10-27T12:18:36.000Z",
+    "ordersCount": 4,
+    "ltvCents": 176800,
+    "lastOrderAt": "2026-05-25T12:27:54.000Z"
+  },
+  {
+    "id": "cus_o3mgl6qv",
+    "name": "Mack Schuppe",
+    "email": "mack_schuppe22@omakase-demo.test",
+    "location": "Chicago, IL",
+    "createdAt": "2025-03-08T09:50:54.000Z",
+    "ordersCount": 4,
+    "ltvCents": 198400,
+    "lastOrderAt": "2026-05-22T18:25:33.000Z"
+  },
+  {
+    "id": "cus_qk923w6b",
+    "name": "Marguerite Feeney",
+    "email": "marguerite.feeney59@omakase-demo.test",
+    "location": "Chicago, IL",
+    "createdAt": "2024-06-21T03:41:24.000Z",
+    "ordersCount": 3,
+    "ltvCents": 65000,
+    "lastOrderAt": "2026-05-16T02:05:55.000Z"
+  },
+  {
+    "id": "cus_ky6o7j3g",
+    "name": "Krista Feest",
+    "email": "krista_feest@omakase-demo.test",
+    "location": "Tokyo, JP",
+    "createdAt": "2025-05-01T07:19:40.000Z",
+    "ordersCount": 1,
+    "ltvCents": 77700,
+    "lastOrderAt": "2026-05-10T07:00:49.000Z"
+  },
+  {
+    "id": "cus_r4tsp1a9",
+    "name": "Palma Jacobi",
+    "email": "palma.jacobi@omakase-demo.test",
+    "location": "Denver, CO",
+    "createdAt": "2025-04-26T20:31:37.000Z",
+    "ordersCount": 2,
+    "ltvCents": 99400,
+    "lastOrderAt": "2026-06-01T23:23:09.000Z"
+  },
+  {
+    "id": "cus_tsa2e6pc",
+    "name": "Katlyn King",
+    "email": "katlyn_king@omakase-demo.test",
+    "location": "Mexico City, MX",
+    "createdAt": "2025-05-26T23:51:12.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_04yjyfbi",
+    "name": "Breanna Kuhlman",
+    "email": "breanna_kuhlman76@omakase-demo.test",
+    "location": "London, UK",
+    "createdAt": "2025-05-22T09:08:22.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_o2iztmbm",
+    "name": "Cristobal Corwin",
+    "email": "cristobal.corwin78@omakase-demo.test",
+    "location": "Berlin, DE",
+    "createdAt": "2026-03-25T23:03:41.000Z",
+    "ordersCount": 4,
+    "ltvCents": 228000,
+    "lastOrderAt": "2026-05-24T23:06:55.000Z"
+  },
+  {
+    "id": "cus_9r4j708z",
+    "name": "Sonja Hilll",
+    "email": "sonja.hilll@omakase-demo.test",
+    "location": "Seoul, KR",
+    "createdAt": "2024-11-19T00:24:28.000Z",
+    "ordersCount": 2,
+    "ltvCents": 42800,
+    "lastOrderAt": "2026-05-30T16:55:16.000Z"
+  },
+  {
+    "id": "cus_bof9u1wg",
+    "name": "Brandon Sporer",
+    "email": "brandon.sporer48@omakase-demo.test",
+    "location": "Stockholm, SE",
+    "createdAt": "2025-09-22T17:28:22.000Z",
+    "ordersCount": 3,
+    "ltvCents": 196900,
+    "lastOrderAt": "2026-05-15T06:32:49.000Z"
+  },
+  {
+    "id": "cus_20yqcacr",
+    "name": "Lolita Leannon",
+    "email": "lolita.leannon@omakase-demo.test",
+    "location": "Amsterdam, NL",
+    "createdAt": "2025-01-19T01:05:42.000Z",
+    "ordersCount": 3,
+    "ltvCents": 221900,
+    "lastOrderAt": "2026-06-03T10:43:26.000Z"
+  },
+  {
+    "id": "cus_1ysazlkq",
+    "name": "Beulah Gleason",
+    "email": "beulah.gleason@omakase-demo.test",
+    "location": "Seoul, KR",
+    "createdAt": "2025-10-12T18:37:22.000Z",
+    "ordersCount": 4,
+    "ltvCents": 137600,
+    "lastOrderAt": "2026-05-25T15:59:27.000Z"
+  },
+  {
+    "id": "cus_x9rguqrn",
+    "name": "Evan Hintz",
+    "email": "evan.hintz@omakase-demo.test",
+    "location": "Portland, OR",
+    "createdAt": "2024-07-22T05:07:11.000Z",
+    "ordersCount": 4,
+    "ltvCents": 214000,
+    "lastOrderAt": "2026-05-27T23:12:00.000Z"
+  },
+  {
+    "id": "cus_mr5g08qz",
+    "name": "Trey Cole",
+    "email": "trey_cole81@omakase-demo.test",
+    "location": "Los Angeles, CA",
+    "createdAt": "2025-05-20T20:43:32.000Z",
+    "ordersCount": 2,
+    "ltvCents": 49800,
+    "lastOrderAt": "2026-05-14T14:55:57.000Z"
+  },
+  {
+    "id": "cus_bvzdgpvl",
+    "name": "Concepcion Morissette",
+    "email": "concepcion.morissette@omakase-demo.test",
+    "location": "Denver, CO",
+    "createdAt": "2025-04-17T00:45:02.000Z",
+    "ordersCount": 3,
+    "ltvCents": 55000,
+    "lastOrderAt": "2026-05-22T11:44:46.000Z"
+  },
+  {
+    "id": "cus_h22cspsi",
+    "name": "Abdul Schimmel",
+    "email": "abdul.schimmel58@omakase-demo.test",
+    "location": "London, UK",
+    "createdAt": "2025-02-15T01:34:33.000Z",
+    "ordersCount": 2,
+    "ltvCents": 63600,
+    "lastOrderAt": "2026-04-18T23:58:51.000Z"
+  },
+  {
+    "id": "cus_6dc00t9i",
+    "name": "Jennifer Metz",
+    "email": "jennifer_metz@omakase-demo.test",
+    "location": "San Francisco, CA",
+    "createdAt": "2025-02-14T10:38:47.000Z",
+    "ordersCount": 4,
+    "ltvCents": 143700,
+    "lastOrderAt": "2026-05-27T04:57:41.000Z"
+  },
+  {
+    "id": "cus_rny22a98",
+    "name": "Herbert Dibbert",
+    "email": "herbert_dibbert45@omakase-demo.test",
+    "location": "Toronto, CA",
+    "createdAt": "2026-02-01T01:43:29.000Z",
+    "ordersCount": 3,
+    "ltvCents": 239800,
+    "lastOrderAt": "2026-06-03T09:14:49.000Z"
+  },
+  {
+    "id": "cus_x1f9qz9n",
+    "name": "Ollie Bergnaum",
+    "email": "ollie.bergnaum3@omakase-demo.test",
+    "location": "Portland, OR",
+    "createdAt": "2024-08-16T03:31:24.000Z",
+    "ordersCount": 1,
+    "ltvCents": 41800,
+    "lastOrderAt": "2026-05-11T20:44:16.000Z"
+  },
+  {
+    "id": "cus_gh5yuoge",
+    "name": "Wayne Bruen",
+    "email": "wayne.bruen22@omakase-demo.test",
+    "location": "Amsterdam, NL",
+    "createdAt": "2024-09-24T13:31:06.000Z",
+    "ordersCount": 3,
+    "ltvCents": 46300,
+    "lastOrderAt": "2026-05-07T15:08:11.000Z"
+  },
+  {
+    "id": "cus_zr02gwjh",
+    "name": "Joe Bechtelar",
+    "email": "joe_bechtelar20@omakase-demo.test",
+    "location": "Austin, TX",
+    "createdAt": "2026-01-11T07:45:31.000Z",
+    "ordersCount": 5,
+    "ltvCents": 310200,
+    "lastOrderAt": "2026-06-01T23:07:47.000Z"
+  },
+  {
+    "id": "cus_w9z576wn",
+    "name": "Georgiana Doyle-Ledner",
+    "email": "georgiana.doyle-ledner@omakase-demo.test",
+    "location": "Portland, OR",
+    "createdAt": "2025-02-20T19:23:54.000Z",
+    "ordersCount": 3,
+    "ltvCents": 93600,
+    "lastOrderAt": "2026-05-31T04:00:37.000Z"
+  },
+  {
+    "id": "cus_w2q6utjp",
+    "name": "Arielle Labadie",
+    "email": "arielle_labadie@omakase-demo.test",
+    "location": "Seattle, WA",
+    "createdAt": "2025-01-28T15:09:52.000Z",
+    "ordersCount": 2,
+    "ltvCents": 101700,
+    "lastOrderAt": "2026-04-22T01:51:28.000Z"
+  },
+  {
+    "id": "cus_ugzm4obo",
+    "name": "Jaden Shields",
+    "email": "jaden.shields@omakase-demo.test",
+    "location": "Los Angeles, CA",
+    "createdAt": "2024-10-11T02:14:08.000Z",
+    "ordersCount": 2,
+    "ltvCents": 92600,
+    "lastOrderAt": "2026-06-03T23:57:23.000Z"
+  },
+  {
+    "id": "cus_wok3ggvj",
+    "name": "Dangelo Nolan",
+    "email": "dangelo_nolan51@omakase-demo.test",
+    "location": "Denver, CO",
+    "createdAt": "2025-12-09T00:18:39.000Z",
+    "ordersCount": 3,
+    "ltvCents": 88800,
+    "lastOrderAt": "2026-05-10T17:34:23.000Z"
+  },
+  {
+    "id": "cus_4pj380ga",
+    "name": "Harry VonRueden",
+    "email": "harry.vonrueden85@omakase-demo.test",
+    "location": "Copenhagen, DK",
+    "createdAt": "2024-08-13T18:48:01.000Z",
+    "ordersCount": 1,
+    "ltvCents": 21900,
+    "lastOrderAt": "2026-05-04T01:37:20.000Z"
+  },
+  {
+    "id": "cus_kzui2tl4",
+    "name": "Nichole Stehr",
+    "email": "nichole_stehr@omakase-demo.test",
+    "location": "Los Angeles, CA",
+    "createdAt": "2025-12-27T01:14:47.000Z",
+    "ordersCount": 1,
+    "ltvCents": 14100,
+    "lastOrderAt": "2026-04-13T19:24:19.000Z"
+  },
+  {
+    "id": "cus_3dhnylqi",
+    "name": "Remington Larson",
+    "email": "remington.larson31@omakase-demo.test",
+    "location": "Stockholm, SE",
+    "createdAt": "2024-11-16T14:53:26.000Z",
+    "ordersCount": 2,
+    "ltvCents": 51900,
+    "lastOrderAt": "2026-05-28T11:09:58.000Z"
+  },
+  {
+    "id": "cus_3cskiaxe",
+    "name": "Gwen Connelly",
+    "email": "gwen.connelly97@omakase-demo.test",
+    "location": "Los Angeles, CA",
+    "createdAt": "2025-06-05T04:36:16.000Z",
+    "ordersCount": 3,
+    "ltvCents": 131500,
+    "lastOrderAt": "2026-05-04T07:06:57.000Z"
+  },
+  {
+    "id": "cus_t0m192lo",
+    "name": "Felix Kunde",
+    "email": "felix_kunde99@omakase-demo.test",
+    "location": "Austin, TX",
+    "createdAt": "2025-10-27T09:25:24.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_q4w2j50f",
+    "name": "Harriet Rolfson",
+    "email": "harriet.rolfson8@omakase-demo.test",
+    "location": "San Francisco, CA",
+    "createdAt": "2024-07-23T16:40:21.000Z",
+    "ordersCount": 7,
+    "ltvCents": 128300,
+    "lastOrderAt": "2026-05-27T23:18:07.000Z"
+  },
+  {
+    "id": "cus_wfbkdlpo",
+    "name": "Angelina Heathcote",
+    "email": "angelina_heathcote@omakase-demo.test",
+    "location": "Denver, CO",
+    "createdAt": "2025-01-11T10:40:16.000Z",
+    "ordersCount": 3,
+    "ltvCents": 131600,
+    "lastOrderAt": "2026-05-16T04:54:45.000Z"
+  },
+  {
+    "id": "cus_o5h0iyd1",
+    "name": "Carolyn Crist",
+    "email": "carolyn.crist@omakase-demo.test",
+    "location": "Brooklyn, NY",
+    "createdAt": "2025-09-11T01:24:18.000Z",
+    "ordersCount": 2,
+    "ltvCents": 97700,
+    "lastOrderAt": "2026-05-11T02:54:05.000Z"
+  },
+  {
+    "id": "cus_j5jjrufa",
+    "name": "Alyssa Green",
+    "email": "alyssa_green@omakase-demo.test",
+    "location": "San Francisco, CA",
+    "createdAt": "2025-09-30T21:36:49.000Z",
+    "ordersCount": 5,
+    "ltvCents": 159100,
+    "lastOrderAt": "2026-05-25T02:07:06.000Z"
+  },
+  {
+    "id": "cus_1hj8ywpj",
+    "name": "Georgia Lynch-Heidenreich",
+    "email": "georgia_lynch-heidenreich13@omakase-demo.test",
+    "location": "Melbourne, AU",
+    "createdAt": "2025-02-26T11:24:59.000Z",
+    "ordersCount": 2,
+    "ltvCents": 65900,
+    "lastOrderAt": "2026-05-25T00:52:18.000Z"
+  },
+  {
+    "id": "cus_hkvzetrk",
+    "name": "Bonita Terry",
+    "email": "bonita_terry14@omakase-demo.test",
+    "location": "Mexico City, MX",
+    "createdAt": "2024-06-26T11:51:35.000Z",
+    "ordersCount": 4,
+    "ltvCents": 119600,
+    "lastOrderAt": "2026-05-17T09:06:43.000Z"
+  },
+  {
+    "id": "cus_csa7y0zo",
+    "name": "Sara Trantow",
+    "email": "sara.trantow88@omakase-demo.test",
+    "location": "Seoul, KR",
+    "createdAt": "2025-05-17T15:55:01.000Z",
+    "ordersCount": 1,
+    "ltvCents": 45700,
+    "lastOrderAt": "2026-04-13T12:58:05.000Z"
+  },
+  {
+    "id": "cus_3ty2yia2",
+    "name": "Nellie Conroy",
+    "email": "nellie_conroy@omakase-demo.test",
+    "location": "Berlin, DE",
+    "createdAt": "2024-11-21T20:36:05.000Z",
+    "ordersCount": 1,
+    "ltvCents": 41800,
+    "lastOrderAt": "2026-04-26T19:04:20.000Z"
+  },
+  {
+    "id": "cus_n4viglm2",
+    "name": "Alvis Grimes",
+    "email": "alvis.grimes@omakase-demo.test",
+    "location": "Amsterdam, NL",
+    "createdAt": "2024-07-31T09:54:19.000Z",
+    "ordersCount": 5,
+    "ltvCents": 114600,
+    "lastOrderAt": "2026-05-29T11:30:49.000Z"
+  },
+  {
+    "id": "cus_qb0i19p2",
+    "name": "Reagan Lebsack",
+    "email": "reagan.lebsack77@omakase-demo.test",
+    "location": "Seoul, KR",
+    "createdAt": "2025-05-26T06:08:37.000Z",
+    "ordersCount": 1,
+    "ltvCents": 27800,
+    "lastOrderAt": "2026-05-25T11:36:34.000Z"
+  },
+  {
+    "id": "cus_mp06pnyr",
+    "name": "Nettie Hessel",
+    "email": "nettie.hessel84@omakase-demo.test",
+    "location": "Mexico City, MX",
+    "createdAt": "2024-11-05T21:26:54.000Z",
+    "ordersCount": 4,
+    "ltvCents": 225100,
+    "lastOrderAt": "2026-06-01T10:10:52.000Z"
+  },
+  {
+    "id": "cus_7nhv7ola",
+    "name": "Bradford Beahan",
+    "email": "bradford.beahan@omakase-demo.test",
+    "location": "Austin, TX",
+    "createdAt": "2025-07-09T10:12:22.000Z",
+    "ordersCount": 3,
+    "ltvCents": 83900,
+    "lastOrderAt": "2026-06-02T01:25:56.000Z"
+  },
+  {
+    "id": "cus_4ehejl0g",
+    "name": "Emery Ratke",
+    "email": "emery.ratke89@omakase-demo.test",
+    "location": "Mexico City, MX",
+    "createdAt": "2025-08-23T01:06:30.000Z",
+    "ordersCount": 5,
+    "ltvCents": 206000,
+    "lastOrderAt": "2026-05-31T01:43:26.000Z"
+  },
+  {
+    "id": "cus_aricd0an",
+    "name": "Elwyn Lebsack",
+    "email": "elwyn_lebsack12@omakase-demo.test",
+    "location": "Mexico City, MX",
+    "createdAt": "2024-11-18T19:07:15.000Z",
+    "ordersCount": 5,
+    "ltvCents": 121700,
+    "lastOrderAt": "2026-05-24T01:56:15.000Z"
+  },
+  {
+    "id": "cus_jy2d875m",
+    "name": "Stuart Koch",
+    "email": "stuart.koch30@omakase-demo.test",
+    "location": "Tokyo, JP",
+    "createdAt": "2025-11-28T05:29:44.000Z",
+    "ordersCount": 4,
+    "ltvCents": 276000,
+    "lastOrderAt": "2026-06-01T08:51:23.000Z"
+  },
+  {
+    "id": "cus_50mg4yj8",
+    "name": "Rogelio Pacocha",
+    "email": "rogelio.pacocha@omakase-demo.test",
+    "location": "Berlin, DE",
+    "createdAt": "2025-10-16T11:53:42.000Z",
+    "ordersCount": 2,
+    "ltvCents": 52800,
+    "lastOrderAt": "2026-05-30T06:19:56.000Z"
+  },
+  {
+    "id": "cus_yzpzk9fl",
+    "name": "Drew Lockman",
+    "email": "drew.lockman4@omakase-demo.test",
+    "location": "Los Angeles, CA",
+    "createdAt": "2025-07-01T05:02:50.000Z",
+    "ordersCount": 1,
+    "ltvCents": 139700,
+    "lastOrderAt": "2026-05-05T20:23:10.000Z"
+  },
+  {
+    "id": "cus_h00cx8m7",
+    "name": "Cierra Welch",
+    "email": "cierra_welch@omakase-demo.test",
+    "location": "Seattle, WA",
+    "createdAt": "2024-11-27T03:28:43.000Z",
+    "ordersCount": 1,
+    "ltvCents": 35900,
+    "lastOrderAt": "2026-05-22T17:03:51.000Z"
+  },
+  {
+    "id": "cus_kcs9kcn8",
+    "name": "Astrid Kshlerin",
+    "email": "astrid_kshlerin11@omakase-demo.test",
+    "location": "Portland, OR",
+    "createdAt": "2025-08-03T22:59:02.000Z",
+    "ordersCount": 2,
+    "ltvCents": 98500,
+    "lastOrderAt": "2026-05-30T04:57:24.000Z"
+  },
+  {
+    "id": "cus_wfshh7l6",
+    "name": "Jim Bashirian",
+    "email": "jim.bashirian86@omakase-demo.test",
+    "location": "Seattle, WA",
+    "createdAt": "2024-07-17T13:26:34.000Z",
+    "ordersCount": 3,
+    "ltvCents": 150500,
+    "lastOrderAt": "2026-05-30T21:07:19.000Z"
+  },
+  {
+    "id": "cus_4r0ei1z8",
+    "name": "Aubrey Lakin",
+    "email": "aubrey.lakin@omakase-demo.test",
+    "location": "Seattle, WA",
+    "createdAt": "2025-09-17T16:46:39.000Z",
+    "ordersCount": 3,
+    "ltvCents": 57100,
+    "lastOrderAt": "2026-05-24T21:19:22.000Z"
+  },
+  {
+    "id": "cus_eln2jp6s",
+    "name": "Ada Fahey-Olson",
+    "email": "ada_fahey-olson84@omakase-demo.test",
+    "location": "Copenhagen, DK",
+    "createdAt": "2025-10-07T07:42:49.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_v9t7cczu",
+    "name": "Donnie Ratke",
+    "email": "donnie_ratke@omakase-demo.test",
+    "location": "Lisbon, PT",
+    "createdAt": "2025-05-18T08:55:49.000Z",
+    "ordersCount": 2,
+    "ltvCents": 86600,
+    "lastOrderAt": "2026-05-08T17:23:12.000Z"
+  },
+  {
+    "id": "cus_y1ipv6sj",
+    "name": "Troy Cruickshank",
+    "email": "troy_cruickshank73@omakase-demo.test",
+    "location": "Denver, CO",
+    "createdAt": "2026-04-17T20:00:42.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_o1jabcmc",
+    "name": "Candida Swaniawski",
+    "email": "candida_swaniawski79@omakase-demo.test",
+    "location": "Lisbon, PT",
+    "createdAt": "2025-02-27T13:49:54.000Z",
+    "ordersCount": 3,
+    "ltvCents": 105500,
+    "lastOrderAt": "2026-05-20T22:51:42.000Z"
+  },
+  {
+    "id": "cus_fz2i6y4e",
+    "name": "Pauline Pfannerstill",
+    "email": "pauline.pfannerstill5@omakase-demo.test",
+    "location": "Lisbon, PT",
+    "createdAt": "2024-07-21T15:40:37.000Z",
+    "ordersCount": 4,
+    "ltvCents": 191600,
+    "lastOrderAt": "2026-06-01T07:33:51.000Z"
+  },
+  {
+    "id": "cus_ya3lmn90",
+    "name": "Felix DuBuque",
+    "email": "felix.dubuque26@omakase-demo.test",
+    "location": "Mexico City, MX",
+    "createdAt": "2025-02-05T23:36:04.000Z",
+    "ordersCount": 1,
+    "ltvCents": 38700,
+    "lastOrderAt": "2026-04-22T09:52:17.000Z"
+  },
+  {
+    "id": "cus_0k9gyeu6",
+    "name": "Maximus Goldner",
+    "email": "maximus_goldner@omakase-demo.test",
+    "location": "Amsterdam, NL",
+    "createdAt": "2026-02-20T03:56:44.000Z",
+    "ordersCount": 3,
+    "ltvCents": 199100,
+    "lastOrderAt": "2026-05-29T00:52:14.000Z"
+  },
+  {
+    "id": "cus_vq087982",
+    "name": "Adam Rogahn",
+    "email": "adam_rogahn43@omakase-demo.test",
+    "location": "Paris, FR",
+    "createdAt": "2025-07-08T17:00:35.000Z",
+    "ordersCount": 1,
+    "ltvCents": 35800,
+    "lastOrderAt": "2026-05-02T01:01:06.000Z"
+  },
+  {
+    "id": "cus_9dwnsgm8",
+    "name": "Malachi Smitham-Schneider",
+    "email": "malachi_smitham-schneider@omakase-demo.test",
+    "location": "Lisbon, PT",
+    "createdAt": "2025-12-17T14:44:44.000Z",
+    "ordersCount": 1,
+    "ltvCents": 20900,
+    "lastOrderAt": "2026-04-13T13:11:19.000Z"
+  },
+  {
+    "id": "cus_5526nvto",
+    "name": "Marie Shanahan",
+    "email": "marie.shanahan44@omakase-demo.test",
+    "location": "Austin, TX",
+    "createdAt": "2025-10-08T12:03:29.000Z",
+    "ordersCount": 4,
+    "ltvCents": 292300,
+    "lastOrderAt": "2026-06-03T04:34:42.000Z"
+  },
+  {
+    "id": "cus_ji6uouuq",
+    "name": "Dorothy Hermiston",
+    "email": "dorothy.hermiston@omakase-demo.test",
+    "location": "London, UK",
+    "createdAt": "2025-10-04T21:57:19.000Z",
+    "ordersCount": 5,
+    "ltvCents": 162100,
+    "lastOrderAt": "2026-05-23T12:31:48.000Z"
+  },
+  {
+    "id": "cus_05w8c38i",
+    "name": "Melvin Fay",
+    "email": "melvin.fay16@omakase-demo.test",
+    "location": "Stockholm, SE",
+    "createdAt": "2024-12-24T17:30:09.000Z",
+    "ordersCount": 1,
+    "ltvCents": 20900,
+    "lastOrderAt": "2026-04-29T02:02:03.000Z"
+  },
+  {
+    "id": "cus_4l4c5o7e",
+    "name": "Ida Willms",
+    "email": "ida_willms55@omakase-demo.test",
+    "location": "Melbourne, AU",
+    "createdAt": "2025-07-12T12:41:42.000Z",
+    "ordersCount": 2,
+    "ltvCents": 83800,
+    "lastOrderAt": "2026-04-29T08:05:59.000Z"
+  },
+  {
+    "id": "cus_sg6uvg2d",
+    "name": "Jasmine Bernhard",
+    "email": "jasmine.bernhard@omakase-demo.test",
+    "location": "Seoul, KR",
+    "createdAt": "2025-01-14T06:00:43.000Z",
+    "ordersCount": 1,
+    "ltvCents": 28900,
+    "lastOrderAt": "2026-04-17T01:49:25.000Z"
+  },
+  {
+    "id": "cus_2dgqnp07",
+    "name": "Arthur Littel",
+    "email": "arthur_littel@omakase-demo.test",
+    "location": "Amsterdam, NL",
+    "createdAt": "2026-03-14T09:48:26.000Z",
+    "ordersCount": 2,
+    "ltvCents": 59700,
+    "lastOrderAt": "2026-05-01T19:07:07.000Z"
+  },
+  {
+    "id": "cus_qwrlnwkm",
+    "name": "Rebecca Bergstrom",
+    "email": "rebecca_bergstrom@omakase-demo.test",
+    "location": "Portland, OR",
+    "createdAt": "2024-12-01T19:31:08.000Z",
+    "ordersCount": 2,
+    "ltvCents": 195200,
+    "lastOrderAt": "2026-05-11T10:22:22.000Z"
+  },
+  {
+    "id": "cus_9xmb96p7",
+    "name": "Domenic Flatley",
+    "email": "domenic.flatley@omakase-demo.test",
+    "location": "Copenhagen, DK",
+    "createdAt": "2025-05-19T04:04:41.000Z",
+    "ordersCount": 1,
+    "ltvCents": 10100,
+    "lastOrderAt": "2026-04-14T18:02:50.000Z"
+  },
+  {
+    "id": "cus_wvbwztu8",
+    "name": "Raegan Dibbert",
+    "email": "raegan.dibbert69@omakase-demo.test",
+    "location": "Copenhagen, DK",
+    "createdAt": "2025-07-10T00:15:02.000Z",
+    "ordersCount": 3,
+    "ltvCents": 47100,
+    "lastOrderAt": "2026-05-15T23:40:02.000Z"
+  },
+  {
+    "id": "cus_0rmr1umk",
+    "name": "Yvonne Schoen",
+    "email": "yvonne_schoen99@omakase-demo.test",
+    "location": "Stockholm, SE",
+    "createdAt": "2026-04-07T09:07:01.000Z",
+    "ordersCount": 2,
+    "ltvCents": 104800,
+    "lastOrderAt": "2026-05-25T04:21:25.000Z"
+  },
+  {
+    "id": "cus_pl1goodx",
+    "name": "Kira Kihn",
+    "email": "kira_kihn38@omakase-demo.test",
+    "location": "Portland, OR",
+    "createdAt": "2025-03-18T22:55:20.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_syjhe5k9",
+    "name": "Maryse Crist",
+    "email": "maryse_crist59@omakase-demo.test",
+    "location": "Toronto, CA",
+    "createdAt": "2025-01-02T10:40:50.000Z",
+    "ordersCount": 1,
+    "ltvCents": 76800,
+    "lastOrderAt": "2026-04-20T19:08:49.000Z"
+  },
+  {
+    "id": "cus_1wmzgu2c",
+    "name": "Fiona Kassulke",
+    "email": "fiona.kassulke@omakase-demo.test",
+    "location": "Los Angeles, CA",
+    "createdAt": "2024-09-01T15:12:51.000Z",
+    "ordersCount": 1,
+    "ltvCents": 57600,
+    "lastOrderAt": "2026-05-13T03:30:49.000Z"
+  },
+  {
+    "id": "cus_sba849co",
+    "name": "Rosendo Howe",
+    "email": "rosendo.howe21@omakase-demo.test",
+    "location": "Los Angeles, CA",
+    "createdAt": "2025-06-14T06:06:10.000Z",
+    "ordersCount": 2,
+    "ltvCents": 88900,
+    "lastOrderAt": "2026-05-30T17:48:17.000Z"
+  },
+  {
+    "id": "cus_gbt2fgqk",
+    "name": "Buford Crist",
+    "email": "buford.crist48@omakase-demo.test",
+    "location": "Amsterdam, NL",
+    "createdAt": "2025-04-10T19:08:34.000Z",
+    "ordersCount": 2,
+    "ltvCents": 79600,
+    "lastOrderAt": "2026-05-01T21:06:49.000Z"
+  },
+  {
+    "id": "cus_r47y6kkh",
+    "name": "Emelie Zboncak",
+    "email": "emelie_zboncak37@omakase-demo.test",
+    "location": "Stockholm, SE",
+    "createdAt": "2025-05-31T17:29:28.000Z",
+    "ordersCount": 5,
+    "ltvCents": 117600,
+    "lastOrderAt": "2026-05-15T13:33:21.000Z"
+  },
+  {
+    "id": "cus_3kus6o77",
+    "name": "Hazel Marquardt",
+    "email": "hazel.marquardt27@omakase-demo.test",
+    "location": "Melbourne, AU",
+    "createdAt": "2025-12-29T19:17:55.000Z",
+    "ordersCount": 2,
+    "ltvCents": 43000,
+    "lastOrderAt": "2026-05-19T07:48:52.000Z"
+  },
+  {
+    "id": "cus_a78wggr5",
+    "name": "Ada Murazik",
+    "email": "ada_murazik15@omakase-demo.test",
+    "location": "Paris, FR",
+    "createdAt": "2025-09-04T02:29:55.000Z",
+    "ordersCount": 2,
+    "ltvCents": 57800,
+    "lastOrderAt": "2026-05-31T16:26:11.000Z"
+  },
+  {
+    "id": "cus_u50g81q4",
+    "name": "Zula Shields",
+    "email": "zula.shields3@omakase-demo.test",
+    "location": "Stockholm, SE",
+    "createdAt": "2025-09-11T12:36:54.000Z",
+    "ordersCount": 4,
+    "ltvCents": 138600,
+    "lastOrderAt": "2026-05-23T03:17:46.000Z"
+  },
+  {
+    "id": "cus_0tir8c1y",
+    "name": "Helen Rolfson",
+    "email": "helen.rolfson77@omakase-demo.test",
+    "location": "Amsterdam, NL",
+    "createdAt": "2025-01-21T13:55:23.000Z",
+    "ordersCount": 0,
+    "ltvCents": 0,
+    "lastOrderAt": null
+  },
+  {
+    "id": "cus_2f9cux6d",
+    "name": "Lonnie Stanton",
+    "email": "lonnie_stanton@omakase-demo.test",
+    "location": "Toronto, CA",
+    "createdAt": "2025-10-25T06:57:00.000Z",
+    "ordersCount": 3,
+    "ltvCents": 200400,
+    "lastOrderAt": "2026-04-26T10:26:18.000Z"
+  },
+  {
+    "id": "cus_7neevwwb",
+    "name": "Chelsea Wisoky",
+    "email": "chelsea.wisoky50@omakase-demo.test",
+    "location": "Amsterdam, NL",
+    "createdAt": "2025-06-13T15:45:45.000Z",
+    "ordersCount": 3,
+    "ltvCents": 125700,
+    "lastOrderAt": "2026-05-18T20:17:41.000Z"
+  }
+]
