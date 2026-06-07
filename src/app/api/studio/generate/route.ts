@@ -34,6 +34,20 @@ const GenerateSchema = z.object({
 });
 
 export async function POST(request: Request): Promise<NextResponse> {
+  // The pipeline writes rendered frames to /public, which is read-only on a
+  // serverless host (Vercel). Don't attempt the write — return a clear, honest
+  // message instead of a raw EROFS. (The Studio UI also disables Generate when
+  // hosted; this guards direct API calls.)
+  if (process.env.VERCEL) {
+    return NextResponse.json(
+      {
+        error:
+          "Live generation runs locally only — the hosted demo serves the committed gallery. Run `pnpm generate:images` locally to create new frames.",
+      },
+      { status: 422 },
+    );
+  }
+
   let body: unknown;
   try {
     body = await request.json();

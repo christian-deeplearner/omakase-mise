@@ -74,7 +74,7 @@ function scoreTone(score: number): "positive" | "warning" | "critical" {
   return "critical";
 }
 
-export function StudioClient() {
+export function StudioClient({ hosted = false }: { hosted?: boolean }) {
   const { data, isLoading } = useQuery<BriefOptions>({
     queryKey: ["studio", "brief"],
     queryFn: () => fetchJson<BriefOptions>("/api/studio/brief"),
@@ -310,11 +310,24 @@ export function StudioClient() {
               </Select>
             </div>
 
+            {hosted && (
+              <p
+                className="font-mono text-[11px] leading-relaxed text-ink-muted"
+                data-testid="studio-hosted-notice"
+              >
+                Generation runs locally — it writes frames to{" "}
+                <span className="text-ink">/public</span>, which the host keeps
+                read-only. This demo serves the committed gallery. Run{" "}
+                <span className="text-ink">pnpm generate:images</span> locally to
+                make new variants.
+              </p>
+            )}
+
             <Button
               type="button"
               variant="accent"
               onClick={onGenerate}
-              disabled={generating || isLoading || !briefPreview}
+              disabled={generating || isLoading || !briefPreview || hosted}
               data-testid="studio-generate"
             >
               <Sparkles strokeWidth={1.75} />
