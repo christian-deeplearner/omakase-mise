@@ -8,6 +8,17 @@ Omakase is a teaching artifact. It was built by a Claude Code **agent team** for
 
 ---
 
+## Live
+
+Omakase is deployed publicly on Vercel:
+
+- **Storefront:** <https://omakase-mise.vercel.app>
+- **Command center:** <https://omakase-mise.vercel.app/overview> — demo gate: any valid email + password `omakase`
+
+Every push to `main` auto-deploys. The hosted demo serves the committed gallery and deterministic seed data; live image generation and cross-surface order persistence are local-only on serverless (by design). How it's set up, how to ship and roll back: **`docs/deployment/VERCEL.md`**.
+
+---
+
 ## The meta-story
 
 This repo, and the deck that presents it, were built by the method they teach. A named agent team — a director who orchestrates and never codes, plus engineers, a designer, and QA — ran the **Context → Plan → Build → Ship** loop, read the memory base before acting, wrote its decisions back into `knowledge-base/decisions/`, and verified every surface with Playwright before calling it done. The repo you clone is therefore not an empty template. It is a memory base that already compounded.
@@ -57,6 +68,7 @@ The killer test (`e2e/storefront-checkout.spec.ts`) drives a checkout on the sto
 | Generate brand imagery | `pnpm generate:images` |
 | Lint | `pnpm lint` |
 | End-to-end tests | `pnpm test:e2e` *(added during Mission 2)* |
+| Deploy to production | `git push origin main` (auto-deploy) — runbook: `docs/deployment/VERCEL.md` |
 
 Requires Node (use `nvm`) and `pnpm`.
 
