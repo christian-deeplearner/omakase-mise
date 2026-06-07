@@ -15,7 +15,7 @@ Omakase is deployed publicly on Vercel:
 - **Storefront:** <https://omakase-mise.vercel.app>
 - **Command center:** <https://omakase-mise.vercel.app/overview> — demo gate: any valid email + password `omakase`
 
-Every push to `main` auto-deploys. The hosted demo serves the committed gallery and deterministic seed data; live image generation and cross-surface order persistence are local-only on serverless (by design). How it's set up, how to ship and roll back: **`docs/deployment/VERCEL.md`**.
+The repo is linked to the Vercel project; once the Vercel GitHub App is granted access to this repo, pushes to `main` auto-deploy (until then, ship with `vercel --prod`). The hosted demo serves the committed gallery and deterministic seed data; live image generation and cross-surface order persistence are local-only on serverless (by design). How it's set up, how to ship and roll back: **`docs/deployment/VERCEL.md`**.
 
 ---
 
@@ -68,7 +68,7 @@ The killer test (`e2e/storefront-checkout.spec.ts`) drives a checkout on the sto
 | Generate brand imagery | `pnpm generate:images` |
 | Lint | `pnpm lint` |
 | End-to-end tests | `pnpm test:e2e` *(added during Mission 2)* |
-| Deploy to production | `git push origin main` (auto-deploy) — runbook: `docs/deployment/VERCEL.md` |
+| Deploy to production | `vercel --prod` (or `git push origin main` once the Vercel GitHub App has repo access) — runbook: `docs/deployment/VERCEL.md` |
 
 Requires Node (use `nvm`) and `pnpm`.
 

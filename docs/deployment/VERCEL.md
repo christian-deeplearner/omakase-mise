@@ -17,7 +17,7 @@ Command-center gate (demo only): **any valid email + password `omakase`**. Shown
 
 - **Host:** Vercel. Framework auto-detected (Next.js 16.2.7, build `next build`). No `vercel.json`.
 - **Node:** pinned to `22.x` via `package.json` → `engines.node`.
-- **Git integration:** the GitHub repo is connected, so **every push to `main` auto-deploys to production**; other branches get preview deployments. The first launch was a direct CLI deploy of the local working tree.
+- **Git integration:** the GitHub repo is linked to the project (`vercel git connect` reports "already connected"). **Push-to-deploy also requires the Vercel GitHub App to have access to this repo** — for a freshly-created project the App often isn't granted the new repo yet, so pushes won't deploy until you add it. Grant it once at <https://github.com/settings/installations> → **Vercel** → **Configure** → add `omakase-mise` to the repository access list. After that, every push to `main` auto-deploys (other branches get previews). Until then, ship with `vercel --prod`. The first launch was a direct CLI deploy of the local working tree.
 - **Local link:** `.vercel/` (gitignored) holds the project link. Re-create with `vercel link` if missing.
 
 ## Environment variables (Vercel project settings)
@@ -106,6 +106,7 @@ The repo's `e2e/` Playwright specs target a local server; they're the deeper gat
 
 | Symptom | Cause / fix |
 |---|---|
+| Push to `main` doesn't deploy | The Vercel GitHub App lacks access to this repo. Grant it at <https://github.com/settings/installations> → Vercel → Configure → add `omakase-mise`. Verify with `vercel ls omakase-mise` (a git push produces a new deployment). |
 | Build fails on Vercel but passes locally | Node mismatch — confirm `engines.node` `22.x`; check the Vercel build log for the failing type/lint line. |
 | `/agents` page is empty on the host | `outputFileTracingIncludes` glob doesn't match — verify paths in `next.config.ts`. |
 | Operator login works but sessions drop | `OMAKASE_SESSION_SECRET` differs between deployments/instances, or wasn't set — set it and redeploy. |

@@ -10,7 +10,7 @@
 Host on **Vercel** under `christiandeeplearners-projects`, project **`omakase-mise`**.
 
 - **First deploy via the Vercel CLI** (`vercel --prod`) from the local working tree — fastest path to live, and it carried the hardening before it was committed.
-- **GitHub auto-deploy wired** (connected automatically during `vercel link`): every push to `main` now builds a new production deployment. Other branches get preview deployments.
+- **GitHub repo linked to the project** during `vercel link`. Push-to-deploy additionally needs the **Vercel GitHub App granted access to this repo** (a one-time browser grant at github.com/settings/installations → Vercel → Configure); for a freshly-created project that grant is pending, so until it's added the team ships with `vercel --prod`. Once granted, every push to `main` builds a new production deployment and other branches get previews.
 - **`OMAKASE_SESSION_SECRET`** set as a Vercel env var (production + development; preview falls back) so the operator session JWT isn't signed with the public dev fallback.
 - **`FAL_KEY` deliberately NOT set on Vercel.** Image generation writes to `/public` (read-only on serverless) and the Studio gate is a public demo password — setting the key would expose us to public Fal-credit burn for zero benefit. The committed gallery is what the host serves.
 
