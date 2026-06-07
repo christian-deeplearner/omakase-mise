@@ -34,9 +34,9 @@ export function buildHeroPrompt(): string {
     kind: "hero",
     slug: "hero",
     subject:
-      "a single curated essential — a folded heavyweight garment, the chef's selection",
+      "an immersive Omakase brand scene — a serene, light-filled atelier: a few curated essentials arranged with intention; a soft length of unbleached linen and a folded indigo garment resting on a raw sandstone plinth, one hand-thrown ceramic vessel, quiet hinoki wood",
     styleNotes:
-      "wide, unhurried storefront opener; one confident piece carrying the whole frame",
+      "full-bleed cinematic storefront hero with deep calm negative space toward one side for an overlaid headline; architectural stillness and wabi-sabi restraint; immersive editorial atmosphere, not a plain product shot",
   };
   // Variant index 0 anchors the hero to the warm-sandstone surface.
   return buildPrompt(brief, 0);
